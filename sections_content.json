@@ -1,0 +1,514 @@
+{
+  "1": [
+    {
+      "page": 1,
+      "text": "Get AIF-C01 Certiﬁed - Roadmap To Success\nby Vladimir Raykov\n\nIntro + AI, ML,\nDeep Learning\nOverview\n\nMastering the\nBasics: AI & ML\nConcepts\n\nAWS AI Managed\nServices - Deep\nDive\n\n(Section 1)\n\n(Section 2)\n\n(Section 3)\n\nNavigating\nGenerative AI: Core\nComponents,\nModel Types and\nLifecycle\n\nBusiness\nApplications of\nGenerative AI\n\nYour GenAI Toolkit:\nEssential AWS\nServices and\nFeatures\n\n(Section 5)\n\n(Section 6)\n\n(Section 7)\n\nAmazon\nSageMaker AI\nEssentials And The\nML Dev. Lifecycle\n(Section 4)\n\nApplications of\nFMs: Key Design\nConsiderations\n(Section 8)"
+    },
+    {
+      "page": 3,
+      "text": "Intro + AI, ML, Deep\nLearning Overview\n\nMastering the Basics:\nAI & ML Concepts\n\nAWS AI Managed\nServices - Deep Dive\n\n(Section 1)\n\n(Section 2)\n\n(Section 3)\n\nNavigating\nGenerative AI: Core\nComponents, Model\nTypes and Lifecycle\n\nBusiness\nApplications of\nGenerative AI\n(Section 6)\n\nYour GenAI Toolkit:\nEssential AWS\nServices and\nFeatures\n\nFine-Tuning FMs Deep Dive\n\nEvaluating FMs:\nMethods and Metrics\n\n(Section 10)\n\n(Section 11)\n\n(Section 5)\n\nPrompt Engineering\nEssentials And AI\nVulnerabilities\n(Section 9)\n\nMaking AI\nUnderstandable\n(Section 13)\n\nAmazon SageMaker\nEssentials & The ML\nDev. Lifecycle\n(Section 4)\n\nApplications of FMs:\nKey Design\nConsiderations\n(Section 8)\n\n(Section 7)\n\nResponsible AI\nDevelopment: Key\nConcepts And\nConsiderations\n(Section 12)\n\nEssential Security\nPractices and Tools\non AWS\n\nData Security and\nGovernance for AI\nSystems\n\nAI Security,\nCompliance, and\nGovernance\n\n(Section 14)\n\n(Section 15)\n\n(Section 16)\n\nDomain 1: Fundamentals of AI and ML\nDomain 2: Fundamentals of Generative AI\nDomain 3: Applications of Foundation Models\nDomain 4: Guidelines for Responsible AI\nDomain 5: Security, Compliance, and Governance for AI Solutions"
+    },
+    {
+      "page": 4,
+      "text": "SECTION 1"
+    },
+    {
+      "page": 5,
+      "text": "Key AWS Services And Concepts\n1.\n\nCloud Computing: On-demand IT resources (compute, storage, databases) via the internet.\na.\n\n2.\n\n3.\n\nBeneﬁts: Cost Eﬃciency, Scalability, Global Reach, Speed/Agility, Security.\n\nAWS Global Infrastructure:\na.\n\nRegions: Geographic data centers across the world.\n\nb.\n\nAvailability Zones (AZs): Multiple data centers within each Region for redundancy.\n\nc.\n\nEdge Locations: Local caches that speed up content delivery via Amazon CloudFront.\n\nCore AWS Services:\na.\n\nComputing: Amazon EC2: Virtual servers (instances) for various workloads (including AI/ML).\n\nb.\n\nStorage: Amazon S3: Object storage (objects in buckets) for large datasets.\n\nc.\n\nDatabase: Amazon RDS: Relational databases (structured data). Amazon OpenSearch\nService: For semantic search.\n\nd.\n\nNetworking: Amazon VPC: Private network within AWS."
+    },
+    {
+      "page": 6,
+      "text": "AI vs ML vs Deep Learning Overview - Part 1\n1.\n\nAI is technology that mimics human intelligence.\n\n2.\n\nAI is the umbrella term that includes Machine Learning and Deep Learning.\n\n3.\n\nAI learns and improves through massive amounts of training data (particularly true for Deep\nLearning Applications) - far more examples than humans need to learn similar tasks.\n\n4.\n\nAI solves complex problems, with varying degrees of success, across many industries (e.g.,\nhealthcare, ﬁnance, retail, manufacturing, education, entertainment, transportation, energy, and\nmore)\n\n5.\n\nAI excels at pattern recognition and processing large amounts of data.\n\n6.\n\nAI operates on probability-based decision making, providing conﬁdence levels rather than absolute\nanswers\n\n7.\n\nResponsible AI development requires transparency, fairness, and human oversight to prevent\nmisuse."
+    },
+    {
+      "page": 7,
+      "text": "AI vs ML vs Deep Learning Overview - Part 2\n1.\n\nMachine Learning (ML) is the subset of AI focused speciﬁcally on learning from data.\na.\n\n2.\n\nIt transforms traditional programming by learning patterns rather than following explicit rules.\n\nThe three main types are:\na.\n\nSupervised Learning\n\nb.\n\nUnsupervised Learning\n\nc.\n\nReinforcement Learning\n\n3.\n\nData quality and quantity are even more crucial in ML than in general AI applications.\n\n4.\n\nML models improve continuously through exposure to more data.\n\n5.\n\nThe ﬁeld faces unique challenges in computation, algorithm selection, and explainability."
+    },
+    {
+      "page": 8,
+      "text": "AI vs ML vs Deep Learning Overview - Part 3\n1.\n\nDeep Learning (DL) is a specialized subset of ML that uses Neural Networks with multiple layers.\na.\n\n2.\n\nDeep Learning can automatically discover important features in data without human guidance.\na.\n\n3.\n\nIt excels at processing unstructured data like images, text, and sound.\n\nIt requires massive amounts of data and computational power to train effectively.\n\nThe technology powers many modern AI applications, including content generation and natural\nlanguage processing.\n\n4.\n\nDeep Learning systems can be more complex and harder to interpret than traditional Machine\nLearning models.\na.\n\nIts architecture is inspired by the human brain's neural networks."
+    },
+    {
+      "page": 9,
+      "text": "Neural Networks Overview\n1.\n\nNeural Networks consist of input, hidden, and output layers, each playing a crucial role in\ninformation processing.\n\n2.\n\nDifferent architectures serve different purposes: CNNs excel at visual tasks, RNNs handle sequential\ndata, and Transformers revolutionized language processing.\n\n3.\n\nThe Transformer architecture and GPT Models represent signiﬁcant advances in AI, particularly in\nnatural language understanding.\n\n4.\n\nInterpretability remains a major challenge, especially as neural networks are deployed in critical\napplications.\n\n5.\n\nNeural Networks can process various types of input data, from images to text to sensor readings.\n\n6.\n\nThe complexity of modern neural networks requires signiﬁcant computational resources but offers\nunprecedented capabilities."
+    },
+    {
+      "page": 10,
+      "text": "Computer Vision & Natural Language Processing\n1.\n\nComputer Vision enables machines to interpret visual data, using deep learning models (that use\nCNNs architecture) for tasks such as image classiﬁcation and object detection.\n\n2.\n\nNatural Language Processing (NLP) allows computers to understand and generate human\nlanguage, leveraging architectures like RNNs and Transformers for tasks like translation and\nsentiment analysis.\n\n3.\n\nAWS Services such as Amazon Rekognition and Amazon Comprehend provide powerful tools for\nimplementing Computer Vision and NLP solutions.\n\n4.\n\nDeep Learning is the driving force behind the advancements in both Computer Vision and NLP,\nenabling machines to learn from raw data and perform complex tasks."
+    }
+  ],
+  "2": [
+    {
+      "page": 11,
+      "text": "SECTION 2"
+    },
+    {
+      "page": 12,
+      "text": "Intro: Mastering the Basics: AI & ML Concepts - 1\n1.\n\nThe ML Process consists of three main steps:\na.\n\n2.\n\n3.\n\nTraining Data → ML Algorithm → Model\n\nAmazon SageMaker is AWS's fully managed ML service that:\na.\n\nHelps build, train, and deploy ML models.\n\nb.\n\nProvides built-in algorithms and pre-trained models.\n\nc.\n\nOffers automated model tuning.\n\nRemember SageMaker as an ecosystem with key services (not a complete list):\na.\n\nStudio: Your one-stop shop for building, training, and deploying ML models.\ni.\n\nb.\n\nIt provides a web-based interface for coding, debugging, and visualizing data.\n\nGround Truth: Simpliﬁes data labeling for ML training datasets.\ni.\n\nIt offers automated and human-in-the-loop labeling options for various data types."
+    },
+    {
+      "page": 13,
+      "text": "Intro: Mastering the Basics: AI & ML Concepts - 2\na.\n\nData Wrangler: Makes data preparation and feature engineering easier.\ni.\n\nb.\n\nIt provides tools to import, transform, and analyze data for ML.\n\nAutopilot: Automates ML model development by exploring different algorithms and\nhyperparameters.\ni.\n\nc.\n\nClarify: Helps understand how models make predictions and detect potential biases.\ni.\n\nd.\n\nIt helps ﬁnd the best model without deep ML expertise.\n\nIt improves transparency and trust in ML models.\n\nCanvas: Enables business users to build ML models without writing code.\ni.\n\nIt provides a visual, point-and-click interface for simpliﬁed ML."
+    },
+    {
+      "page": 14,
+      "text": "Data Types in Machine Learning\n1.\n2.\n3.\n\n4.\n\n5.\n\nThe ML process starts with collecting and processing training data.\nData quality and preparation are crucial for model success.\nData Categories by Labels:\na. Labeled data: Comes with predeﬁned tags/labels (used in Supervised Learning, where the\nlabels guide the learning process)\nb. Unlabeled data: No predeﬁned labels (used in Unsupervised Learning to discover hidden\nstructures or relationships within the data). The absence of labels requires different learning\nalgorithms to ﬁnd patterns.\nData Categories by Structure:\na. Structured data: Organized in tabular formats (like SQL databases, spreadsheets). This\norganization makes it easy to query and analyze the data.\ni. Time-series data: Data points collected at successive points in time, used for analyzing\ntrends and patterns over time.\nUnstructured data: No predeﬁned format (like social media posts, images, text, videos). This type of\ndata often requires specialized techniques for processing and analysis."
+    },
+    {
+      "page": 15,
+      "text": "Learning Types - Supervised Learning\n1.\n\n2.\n\nSupervised Learning involves training algorithms on labeled data to predict outcomes for new data.\na.\n\nClassiﬁcation assigns input data to predeﬁned categories (labels).\n\nb.\n\nRegression predicts continuous values (numbers).\n\nLabeled data is crucial for Supervised Learning, providing the necessary information for models to\nlearn.\n\n3.\n\nPopular classiﬁcation algorithms include Classiﬁcation Decision Trees, Support Vector Machines,\nK-Nearest Neighbors, and Random Forest.\n\n4.\n\nPopular regression algorithms include Linear Regression, Decision Tree Regression, and Random\nForest.\n\n5.\n\nSupervised Learning is one of the three main categories of ML, alongside Unsupervised Learning\nand Reinforcement Learning."
+    },
+    {
+      "page": 16,
+      "text": "Learning Types - Unsupervised Learning\n1.\n\nUnsupervised learning works with unlabeled data to discover hidden patterns and structures.\na.\n\nClustering groups similar data points together based on their characteristics (e.g., customer\nsegmentation).\n\nb.\n\nDimensionality Reduction simpliﬁes complex data by reducing the number of features while\nretaining essential information (e.g., simplifying user preferences).\n\nc.\n\nAnomaly Detection identiﬁes unusual data points or patterns that deviate from the norm (e.g.,\nfraud detection).\n\nd.\n\nDensity Estimation analyzes the distribution of data points to identify areas of high and low\nconcentration (e.g., location planning).\n\n2.\n\nA key difference from Supervised Learning is that Unsupervised Learning works without predeﬁned\nlabels or \"correct answers.\""
+    },
+    {
+      "page": 17,
+      "text": "Learning Types - Reinforcement Learning & RLHF\n1.\n2.\n3.\n\n4.\n\n5.\n\nReinforcement Learning [RL] is about learning through interaction and feedback.\nKey components include agent, environment, state, action, and reward.\nRLHF incorporates human preferences into the learning process, speciﬁcally:\na. Collects human feedback on model outputs.\nb. Trains a reward model based on human preferences.\nc. Fine-tunes the model to align with these preferences.\nd. Helps reduce undesirable behaviors.\ne. Particularly valuable for tasks where success is hard to deﬁne mathematically.\n[RL] Common applications include:\na. Self-driving cars\nb. Game AI\nc. Robotics\n[RLHF] Important considerations:\na. Human feedback can be valuable but also expensive and subjective.\nb. RLHF can be used for ﬁne-tuning after self-supervised learning.\nc. The ﬁeld combines elements of behavioral psychology and machine learning."
+    },
+    {
+      "page": 18,
+      "text": "Learning Types - Semi-Supervised Learning\n1.\n\nSemi-Supervised Learning combines labeled and unlabeled data simultaneously.\n\n2.\n\nIt's cost-effective as it requires fewer labeled examples.\n\n3.\n\nPerfect for real-world scenarios with limited labeling resources.\n\n4.\n\nWorks best when you have a small amount of labeled data and lots of unlabeled data\n\n5.\n\nExamples of Semi-Supervised Learning applications:\na.\n\nFraud Identiﬁcation\n\nb.\n\nSentiment Analysis\n\nc.\n\nDocument classiﬁcation"
+    },
+    {
+      "page": 19,
+      "text": "What Is Inference? - 1\n1.\n\nInference is the process of using AI models to make predictions or decisions based on new data.\na.\n\nb.\n\nBatch processing:\ni.\n\nCollects and processes data in bulk (high latency).\n\nii.\n\nSuitable for large payloads (up to 100 MB per mini batch).\n\niii.\n\nUses Amazon SageMaker Batch Transform with S3.\n\niv.\n\nMore cost-effective as you only pay for processing time.\n\nv.\n\nBest for applications that can tolerate delays.\n\nReal-time inferencing:\ni.\n\nProcesses data as it arrives (low latency).\n\nii.\n\nHandles smaller payloads (up to 6 MB).\n\niii.\n\nUses Amazon SageMaker Real-Time Endpoints.\n\niv.\n\nCosts more due to continuous running.\n\nv.\n\nEssential for applications requiring immediate responses."
+    },
+    {
+      "page": 20,
+      "text": "What Is Inference? - 2\n2.\n\n3.\n\nThe choice between batch and real-time depends on:\na.\n\nData volume.\n\nb.\n\nLatency requirements.\n\nc.\n\nCost considerations.\n\nd.\n\nApplication needs.\n\nTwo Deployment Options\na.\n\nb.\n\nServerless\ni.\n\nHandles smaller payloads (up to 6 MB).\n\nii.\n\nLow latency.\n\niii.\n\nGreat for unpredictable traﬃc patterns but it has “cold start”.\n\nAsynchronous\ni.\n\nHandles larger payloads (up to 1 GB)\n\nii.\n\nLatency - up to 1h."
+    },
+    {
+      "page": 21,
+      "text": "When NOT To Use Artiﬁcial Intelligence (AI)\n1.\n\nWhen you need 100% reproducible results, and AI’s probabilistic nature could introduce variability.\na.\n\nSome AI models are deterministic, but many, like deep learning, can produce slight variations.\n\n2.\n\nFor simple problems where traditional programming is more eﬃcient.\n\n3.\n\nWhen you need custom training but lack adequate data.\n\n4.\n\nWhen your use case requires complete transparency in decision-making.\n\n5.\n\nIf the cost-beneﬁt analysis doesn't justify an AI solution."
+    }
+  ],
+  "3": [
+    {
+      "page": 22,
+      "text": "SECTION 3"
+    },
+    {
+      "page": 23,
+      "text": "Intro: AWS AI Managed Services Deep Dive\n1.\n\n2.\n3.\n4.\n5.\n\nAWS AI managed services are categorized by their functions:\na. Text/Documents - Comprehend, Translate, Textract\nb. Vision - Rekognition\nc. Search - Kendra\nd. Conversational AI - Lex\ne. Speech - Polly, Transcribe\nf. Business Solutions - Fraud Detector, Personalize, Mechanical Turk\ng. Human Review - Augmented AI (A2I)\nThese are managed services, meaning AWS handles the underlying infrastructure.\nPricing is consumption-based (pay-per-use):\nEach service has its own pricing metrics (tokens, minutes, images).\nNo deep ML expertise is required to use these services:\na. They're pre-trained and ready to use.\nb. APIs make integration straightforward."
+    },
+    {
+      "page": 24,
+      "text": "Amazon Rekognition\n1.\n2.\n\n3.\n\n4.\n\nAmazon Rekognition is a fully managed computer vision service that can analyze images and\nvideos without ML expertise.\nKey Features to Remember:\na. Face detection and analysis.\nb. Object and scene detection.\nc. Text extraction.\nd. Content moderation.\ne. Custom Labels for specialized use cases.\nContent Moderation Capabilities:\na. Detects inappropriate content.\nb. Helps maintain platform safety.\nc. Automated content ﬁltering.\nCustom Labels Important Points:\na. Requires minimal training data.\nb. Builds specialized ML models.\nc. Perfect for unique business needs."
+    },
+    {
+      "page": 25,
+      "text": "Amazon Transcribe\n1.\n\nAmazon Transcribe is a fully managed speech recognition service that can convert speech to text.\n\n2.\n\nKey Features to Remember:\na.\n\nAutomatic speech recognition\n\nb.\n\nSpeaker identiﬁcation\n\nc.\n\nCustom Language Models\n\nd.\n\nCustom Vocabulary Capabilities\n\n3.\n\nIt supports batch and real-time (streaming) transcriptions.\n\n4.\n\nIt supports over 100 languages."
+    },
+    {
+      "page": 26,
+      "text": "Amazon Translate\n1.\n2.\n3.\n\n4.\n\n5.\n6.\n\nAmazon Translate is a neural machine translation service that utilizes advanced deep learning\nmodels to deliver accurate and natural-sounding translations.\nIt supports translation between 75 languages.\nCustomization Options:\na. Custom Terminology: Deﬁne speciﬁc translations for unique terms, ensuring consistency for\nbrand names and industry-speciﬁc vocabulary.\nb. Active Custom Translation: Inﬂuence translation output to match desired style and tone without\nbuilding custom models.\nVersatile Translation Modes:\na. Real-Time Translation: Ideal for applications requiring immediate translations, such as live\nchats and customer support.\nb. Batch Translation: Eﬃciently handles large volumes of text or documents, streamlining\nextensive translation projects.\nAutomatic Language Detection: Identiﬁes the source language of the input text, simplifying workﬂows\nwhen dealing with multilingual content.\nIntegration with AWS Services: Seamlessly integrates with other AWS services like S3 for storage,\nLambda for serverless computing, and Polly for text-to-speech capabilities, enhancing functionality and\nease of use."
+    },
+    {
+      "page": 27,
+      "text": "Amazon Comprehend\n1.\n\nAmazon Comprehend is an NLP service that extracts insights from text using machine learning.\n\n2.\n\nCore features include:\n\n3.\n\na.\n\nEntity recognition\n\nb.\n\nSentiment analysis\n\nc.\n\nLanguage detection\n\nd.\n\nKey phrase extraction\n\nCustomization options allow businesses to create custom classiﬁcation models and entity\nrecognition for industry-speciﬁc needs.\n\n4.\n\nPay-as-you-go pricing applies, with a free tier available.\n\n5.\n\nSeamless AWS integration enables scalable workﬂows with services like S3, Lambda, DynamoDB,\nand QuickSight."
+    },
+    {
+      "page": 28,
+      "text": "Amazon Lex\n1.\n\nAmazon Lex: A service for building conversational AI interfaces, powered by the same technology\nas Alexa.\n\n2.\n\nKey Features: Incorporates automatic speech recognition and natural language understanding;\nmanages intents, utterances, and slots.\n\n3.\n\nPricing: Operates on a pay-as-you-go model with a free tier for the ﬁrst year.\n\n4.\n\nIntegration: Offers seamless connectivity with other AWS services.\n\n5.\n\nUse Cases: Ideal for developing interactive chatbots and virtual assistants across various domains."
+    },
+    {
+      "page": 29,
+      "text": "Amazon Polly\n1.\n\nAmazon Polly is a text-to-speech service that turns written text into lifelike spoken audio.\n\n2.\n\nAmazon Polly's Four Engines:\n\n3.\n\na.\n\nStandard: Fast and basic\n\nb.\n\nNeural: More natural\n\nc.\n\nLong-Form: Perfect for long readings, like audiobooks\n\nd.\n\nGenerative: Most human-like, with emotions\n\nKey Features:\na.\n\nSSML: Controls how words are spoken\n\nb.\n\nLexicons: Custom pronunciation dictionary\n\nc.\n\nSpeech Marks: Timing information for each word"
+    },
+    {
+      "page": 30,
+      "text": "Amazon Fraud Detector\n1.\n\nAmazon Fraud Detector is a fully managed service that leverages machine learning and over 20\nyears of Amazon's fraud detection expertise to help businesses identify potentially fraudulent\nactivities.\n\n2.\n\nAutomated Model Creation: Build custom fraud detection models without prior machine learning\nexperience.\n\n3.\n\nReal-Time Fraud Predictions: Evaluate events instantly through API calls, receiving fraud risk scores\nbetween 0 and 1,000.\n\n4.\n\nRule-Based Actions: Deﬁne and implement rules to automate responses based on model scores\nand other variables.\n\n5.\n\nSeamless AWS Integration: Integrate effortlessly with services like AWS CloudTrail and Amazon\nEventBridge for enhanced monitoring and event-driven workﬂows.\n\n6.\n\nContinuous Model Improvement: Regularly retrain models with new data to adapt to evolving fraud\npatterns."
+    },
+    {
+      "page": 31,
+      "text": "Amazon Personalize\n1.\n\nAmazon Personalize is a fully managed service that brings Amazon.com's recommendation\ntechnology to developers, enabling the creation of personalized user experiences without requiring\nmachine learning expertise.\n\n2.\n\nData Integration: Utilizes user interactions, user metadata, and item metadata to inform\nrecommendations.\n\n3.\n\nPre-Built Recipes: Offers algorithms for user personalization, similar items, and personalized ranking.\n\n4.\n\nAdvanced Capabilities: Addresses cold start problems, provides real-time updates, and supports A/B\ntesting.\n\n5.\n\nAWS Integration: Seamlessly works with services like Amazon SageMaker Data Wrangler and AWS\nAmplify.\n\n6.\n\nFlexible Pricing: Pay-as-you-go model with a generous free tier for initial exploration."
+    },
+    {
+      "page": 32,
+      "text": "Amazon Kendra\n1.\n\nAmazon Kendra is an intelligent enterprise search service that uses natural language processing to\ndeliver accurate and context-aware answers.\n\n2.\n\nKey features include:\na.\n\nNatural Language Understanding: Interprets and responds to conversational questions.\n\nb.\n\nContextual Answers: Provides precise information extracted from relevant documents.\n\nc.\n\nAdaptive Learning: Improves search relevance based on user interactions.\n\nd.\n\nBuilt-In Domain Knowledge: Offers expertise across multiple industries.\n\ne.\n\nDiverse Data Source Support: Integrates with various platforms and repositories.\n\nf.\n\nRobust Security Controls: Ensures users access only authorized information.\n\ng.\n\nDirect Answers and Document Links: Delivers concise responses with source references.\n\nh.\n\nContinuous Improvement: Learns and adapts from user behavior to enhance accuracy."
+    },
+    {
+      "page": 33,
+      "text": "Amazon Textract\n1.\n\nAmazon Textract is an intelligent document processing service that surpasses basic OCR by\nunderstanding document structures.\n\n2.\n\nKey capabilities include:\na.\n\nExtracting text and handwriting.\n\nb.\n\nProcessing forms and tables.\n\nc.\n\nIdentifying key-value pairs.\n\nd.\n\nComprehending document layouts.\n\ne.\n\nIt supports various document types such as PDFs, images, and scanned ﬁles.\n\nf.\n\nTextract provides conﬁdence scores, maintains spatial information.\n\ng.\n\nIt offers both synchronous and asynchronous processing options."
+    },
+    {
+      "page": 34,
+      "text": "Amazon Forecast\n1.\n\nAmazon Forecast is a fully managed forecasting service using ML.\n\n2.\n\nKey capabilities:\n\n3.\n\na.\n\nAutomatic algorithm selection.\n\nb.\n\nWeather integration.\n\nc.\n\nProbabilistic forecasts.\n\nd.\n\nForecast explainability.\n\nCommon use cases:\na.\n\nRetail demand planning.\n\nb.\n\nSupply chain optimization.\n\nc.\n\nEnergy consumption prediction.\n\nd.\n\nFinancial planning."
+    },
+    {
+      "page": 35,
+      "text": "Amazon Mechanical Turk\n1.\n\nAmazon Mechanical Turk (MTurk) is a crowdsourcing marketplace for human intelligence tasks.\n\n2.\n\nKey capabilities:\n\n3.\n\na.\n\nGlobal workforce access\n\nb.\n\nQuality control tools\n\nc.\n\nWorker qualiﬁcation systems\n\nd.\n\nAutomated task distribution\n\nCommon use cases:\na.\n\nData labeling\n\nb.\n\nContent moderation\n\nc.\n\nSurvey completion\n\nd.\n\nData veriﬁcation\n\ne.\n\nImage/video processing\n\nf.\n\nData collection"
+    },
+    {
+      "page": 36,
+      "text": "Amazon Augmented AI (A2I)\n1.\n\nAmazon Augmented AI (A2I) improves the accuracy of ML predictions by incorporating human\nreview into your workﬂows, particularly beneﬁcial for low-conﬁdence predictions or complex data.\n\n2.\n\nA2I automates the routing of these uncertain predictions to human reviewers, streamlining\nworkﬂows and minimizing manual effort.\n\n3.\n\nA2I integrates seamlessly with Amazon Textract for document processing and Amazon Rekognition\nfor image and video analysis, providing pre-built human review workﬂows for common use cases.\n\n4.\n\nIts API also allows integration with custom ML models, offering ﬂexibility for unique applications.\n\n5.\n\nA2I's pay-as-you-go pricing model provides a cost-effective solution for maintaining high-quality\nresults while eﬃciently managing expenses."
+    }
+  ],
+  "4": [
+    {
+      "page": 37,
+      "text": "SECTION 4"
+    },
+    {
+      "page": 38,
+      "text": "Amazon SageMaker AI - Overview\n1.\n2.\n3.\n4.\n5.\n\n6.\n7.\n8.\n\nAmazon SageMaker AI is a fully managed service for building machine learning (ML) models and\nfoundation models (FMs).\nUniﬁed Studio integrates data preparation, analytics, training, and deployment.\nPre-built tools: Tools like JumpStart and Partner AI Apps accelerate workﬂows.\nHyperPod: Enables eﬃcient large-scale training by leveraging thousands of GPUs or accelerators.\nAutomated Model Tuning: SageMaker simpliﬁes hyperparameter tuning to optimize model\nperformance.\na. Hyperparameters are settings deﬁned before training that control the learning process, such as\nthe learning rate or the number of layers in a neural network.\nb. Model parameters are internal variables like weights in a neural network. These parameters are\nlearned automatically during training.\nBuilt-in Security: Features like SageMaker Catalog ensure compliance with organizational policies.\nScalable Deployment: Deploy models at scale with cost-effective, pay-as-you-go pricing.\nGenerative AI Assistance: Tools like Q Developer simplify workﬂows with natural language\nguidance."
+    },
+    {
+      "page": 39,
+      "text": "Machine ML Development Lifecycle - Recap 1\n1.\n\nThe Machine Learning Development Lifecycle is an iterative process that guides the development of\nML models. It includes several phases that build upon one another.\na.\n\nEach phase—such as deﬁning the business goal, processing data, developing models, and\ndeployment—feeds into the next, and model monitoring and retraining ensure long-term success.\n\nb.\n\nThe process is NOT linear, meaning that you might revisit earlier steps based on the insights and\nresults you get at later stages.\n\n2.\n\n3.\n\nBusiness Goal Identiﬁcation:\na.\n\nStart by clearly deﬁning the business problem you're solving.\n\nb.\n\nEnsure alignment with stakeholders and determine if ML is the right approach.\n\nML Problem Framing:\na.\n\nTranslate the business problem into an ML problem.\n\nb.\n\nChoose the appropriate approach (e.g., classiﬁcation or regression) and deﬁne success metrics."
+    },
+    {
+      "page": 40,
+      "text": "Machine ML Development Lifecycle - Recap 2\n4.\n\n5.\n\nData Processing:\na. Data Collection: Identify and gather the relevant data, ensuring its quality and compliance with\nprivacy standards (AWS S3).\nb. Data Preparation: Clean and transform data to make it suitable for modeling (AWS SageMaker\nData Wrangler).\nc. Feature Engineering: Create and select features that will help the model learn patterns (AWS\nSageMaker Feature Store).\nModel Development:\na. Training:\ni. Split your data into training (80%), validation (10%), and test (10%) sets.\nii. Train the model on the training data while using the validation set to ﬁne-tune\nhyperparameters.\niii. Key concepts (hyperparameters):\n1. Batch size: Determines how many samples the model processes at once. Smaller\nbatch sizes can improve accuracy but take longer; larger batches speed up training\nbut require more memory.\n2. Learning rate: Controls how much the model adjusts after each batch. A low\nlearning rate results in slow learning, while a high learning rate results in\novershooting the optimal solution."
+    },
+    {
+      "page": 41,
+      "text": "Machine ML Development Lifecycle - Recap 3\n3.\n\n6.\n\nEpochs: Refers to one full pass through the entire dataset. Too few epochs can\nresult in underﬁtting; too many can cause overﬁtting.\nb. Tuning: Adjust hyperparameters (e.g., batch size, learning rate) to optimize model performance.\nc. Evaluation: Assess the model against the test set to ensure it meets business metrics.\nd. SageMaker Model Registry stores and tracks model versions, making it easy to manage and\ntransition your models from training to deployment.\nModel Deployment:\na. Choose between self-hosted API or managed API deployment based on the need for ﬂexibility\nand technical resources.\nb. Deployment Options (AWS SageMaker):\ni. Real-Time Inference: Instant processing with payload size limits (up to 6MB). Processing\ntime: up to 60 sec. Latency: millisecond.\nii. Serverless Inference: Scales automatically based on demand and only charges for\ncompute time used (up to 4MB payload). Processing time: up to 60 sec. Latency is low but\nmay experience cold starts."
+    },
+    {
+      "page": 42,
+      "text": "Machine ML Development Lifecycle - Recap 4\niii.\n\n7.\n\n8.\n\nBatch Transform: Designed for oﬄine processing of large datasets available upfront.\nPayload size: Gigabytes (GBs). Processing time: could be days.\niv. Asynchronous Inference: Suitable for large payloads that do not require immediate\nresponses (up to 1GB). Processing time: up to 1 hour. Latency: near real-time.\nModel Monitoring:\na. Monitor for potential issues like data drift (changes in input data), concept drift (changes in the\nrelationship between input and output data), and performance degradation.\nb. Key types of monitoring:\niii. Data Quality Monitoring: Tracks data changes (e.g., invalid inputs).\niv. Model Performance Monitoring: Tracks performance changes over time.\nv. Bias Monitoring: Ensures fairness across different groups.\nvi. Feature Attribution Drift: Monitors how features impact model decisions.\nc. Amazon SageMaker Model Monitor provides automated monitoring for these issues.\nModel Retraining:\na. Retrain models based on performance degradation or changes in data.\nb. Incorporate new data and automate the retraining process with CI/CD pipelines for continuous\nimprovement."
+    },
+    {
+      "page": 43,
+      "text": "ML Development Lifecycle vs ML Pipeline\n1.\n\n2.\n\n3.\n\n4.\n\nML Development Lifecycle\na. Covers the entire ML project journey, from strategy to deployment.\nb. Includes business strategy and stakeholder involvement.\nc. Flexible and iterative process.\nd. Focuses on \"what\" and \"why.\"\nML Pipeline\na. Automates technical steps like data preprocessing, model training, and deployment.\nb. Standardized, reproducible workﬂows focusing on \"how\".\nKey Differences\na. Scope: Lifecycle is strategic; Pipeline is tactical.\nb. Automation: Pipeline automates technical tasks; Lifecycle involves manual processes.\nc. Purpose: Lifecycle guides the project; Pipeline executes the technical steps.\nSageMaker Pipelines Highlights\na. CI/CD service for ML workﬂow automation.\nb. Operates on serverless infrastructure.\nc. Automates and scales workﬂows intelligently.\nd. Tracks model lineage for compliance and transparency."
+    },
+    {
+      "page": 44,
+      "text": "MLOps Fundamentals\n1.\n2.\n\n3.\n\nMLOps is the practice of systematically managing the ML lifecycle, making ML projects reliable and\nscalable.\nKey principles include:\na. Version control for tracking all changes\nb. Automation of repetitive tasks\nc. CI/CD for seamless testing and deployment\nd. Model governance for control and compliance\nMajor beneﬁts are:\na. Faster time to market\nb. Increased team productivity\nc. Enhanced reliability and repeatability\nd. Complete auditability\ne. Improved data and model quality\nf. Scalable systems that grow with your needs\ng. Reduced technical debt\nh. Production-ready deployments"
+    },
+    {
+      "page": 45,
+      "text": "Mapping The AWS SageMaker AI Features - 1\n1.\n\nGeneral Tools For All Stages:\na.\n\nAmazon SageMaker Studio: A web-based IDE for end-to-end ML workﬂows, supporting tasks like\ndata preparation, training, deployment, and monitoring within a single interface.\n\nb.\n\nAmazon SageMaker Uniﬁed Studio: An expanded platform that integrates ML with broader AWS\ndata and analytics services like Glue, Redshift, and Bedrock, ideal for enterprise-scale workﬂows.\n\nc.\n\nAmazon SageMaker Canvas: A no-code visual interface that enables users to prepare data, build,\nand deploy ML models without writing code. It streamlines the end-to-end ML lifecycle, making it\naccessible to business analysts and domain experts.\n\n2.\n\nData Preparation:\na.\n\nSageMaker Ground Truth for building highly accurate training datasets for ML through data\nlabeling.\n\nb.\n\nAmazon SageMaker Data Wrangler for visual data preparation and transformation.\n\nc.\n\nAmazon SageMaker Processing Jobs for large-scale data processing tasks.\n\nd.\n\nAmazon SageMaker Feature Store for centralized feature storage and sharing across projects."
+    },
+    {
+      "page": 46,
+      "text": "Mapping The AWS SageMaker AI Features - 2\n1.\n\n2.\n\nTraining and Tuning:\na.\n\nAmazon SageMaker Training Jobs for model training and scaling infrastructure.\n\nb.\n\nAmazon SageMaker Autopilot for automated model building and hyperparameter tuning.\n\nc.\n\nAmazon SageMaker's integration with MLﬂow for tracking and comparing different experiments.\n\nd.\n\nAmazon SageMaker Processing Jobs for model evaluation and performance analysis.\n\ne.\n\nAmazon SageMaker Model Registry for versioning and managing models.\n\nDeploy and Manage:\na.\n\nAmazon SageMaker Endpoints for real-time inference with automatic scaling.\n\nb.\n\nAmazon SageMaker Batch Transform for batch processing scenarios.\n\nc.\n\nAmazon SageMaker Edge Manager for deploying models to edge devices (smartphones,\ncameras, sensors).\n\nd.\n\nAmazon SageMaker Model Monitor for performance monitoring, including data quality, model\nquality, bias drift, and feature attribution drift.\n\ne.\n\nAmazon SageMaker Clarify: Detects bias in predictions and provides insights into model behavior."
+    },
+    {
+      "page": 47,
+      "text": "Amazon SageMaker AI -Model Sources And Selection\n1.\n\n2.\n\n3.\n\nAmazon SageMaker AI offers four approaches, ranging from least to most complex:\na. Pre-trained Models (via JumpStart)\nb. Built-in Algorithms\nc. Pre-conﬁgured Framework Containers (e.g. PyTorch, TensorFlow, MXNet)\nd. Custom Containers\nWhen analyzing model selection questions, look for these keywords:\na. \"Least effort\" or \"quick deployment\" → Pre-trained models\nb. \"Standard ML tasks\" or \"balanced approach\" → Built-in algorithms\nc. \"Custom training code\" but \"managed infrastructure\" → Pre-conﬁgured frameworks\nd. \"Complete control\" or \"speciﬁc requirements\" → Custom containers\nWhen considering operational overhead:\na. Least overhead: Pre-trained models (but remember: ﬁne-tuning adds some overhead)\nb. Moderate overhead: Built-in algorithms\nc. High overhead: Pre-conﬁgured frameworks\nd. Highest overhead: Custom containers"
+    },
+    {
+      "page": 48,
+      "text": "Tech. Perform. Metrics - For Classiﬁcation Problems\n1.\n\nAccuracy: The percentage of total correct predictions (both positive and negative).\n\n2.\n\nPrecision: How many of our positive predictions were actually positive.\n\n3.\n\nRecall: How many actual positive cases we caught.\n\n4.\n\nF1-Score: The balance between precision and recall.\n\n5.\n\nAUC-ROC: How well our model can distinguish between classes (0.5 is random, 1.0 is perfect)."
+    },
+    {
+      "page": 49,
+      "text": "Tech. Perform. Metrics - For Regression Problems\n1.\n\nMAE: Average absolute difference between predictions and actual values.\n\n2.\n\nMSE: Average squared difference (penalizes big mistakes more).\n\n3.\n\nRMSE: Square root of MSE (brings us back to original scale).\n\n4.\n\nR-squared: How much variation our model explains (0 to 1).\n\n5.\n\nMAPE: Average percentage difference between predictions and actual values."
+    },
+    {
+      "page": 50,
+      "text": "Business Performance Metrics\n1.\n\n2.\n\n3.\n\n4.\n\nCost per User\na. Measures eﬃciency and scalability\nb. Calculated by dividing total infrastructure costs by active users\nc. Should decrease over time with optimization\nDevelopment Costs\na. Include data collection, computing resources, training, and maintenance\nb. Often higher than initially estimated\nc. Critical for accurate ROI calculations\nReturn on Investment (ROI)\na. Key metric for stakeholders\nb. Considers both tangible and intangible beneﬁts\nc. Calculated as (Beneﬁts - Costs) / Costs\nCustomer Feedback\na. Provides qualitative insights\nb. Measures real-world impact\nc. Collected through surveys, NPS, and usage analytics"
+    }
+  ],
+  "5": [
+    {
+      "page": 51,
+      "text": "SECTION 5"
+    },
+    {
+      "page": 52,
+      "text": "Foundation Models (FMs) - Overview\n1.\n2.\n\n3.\n\n4.\n5.\n6.\n7.\n8.\n\nDeﬁnition: FMs are large-scale, pre-trained models adaptable to a wide range of tasks through\nﬁne-tuning. They learn general patterns from massive datasets.\nKey Architectures: Common architectures include Transformers (especially for language), CNNs (for\nimages), RNNs (for sequential data), and GNNs (for graph data).\na. Transformers are crucial for many modern FMs.\nTraining Process: FMs are pre-trained using self-supervised learning on large amounts of unlabeled\ndata. This allows them to learn general representations, which are then adapted through ﬁne-tuning\nwith smaller labeled datasets for speciﬁc tasks.\nMultimodality: Modern FMs are increasingly multimodal, processing and generating information across\nmodalities like text, images, and code (e.g., Google's Gemini family, Amazon Nova).\nKey Capabilities: FMs excel at language processing, visual comprehension, code generation,\nhuman-centered engagement (chatbots), and speech-to-text.\nPrompt Engineering: Effective prompt engineering is crucial for eliciting desired outputs from FMs.\nAWS and Bedrock: Amazon Bedrock is your key AWS service for accessing various FMs, including\nAmazon Titan and models from other providers.\nKey Considerations: FMs require signiﬁcant resources for training, can have reliability and accuracy\nissues, and raise ethical concerns regarding bias."
+    },
+    {
+      "page": 53,
+      "text": "Large Language Models (LLMs) - Overview\n1.\n2.\n\n3.\n\n4.\n\nWhat are LLMs? Large Language Models (LLMs) are specialized Foundation Models designed to\nunderstand and generate human language.\nHow do LLMs work?\na. Tokenization: LLMs break text into smaller units called tokens, like words or parts of words, to\nprocess language more effectively.\nb. Transformer Architecture: Powered by self-attention, transformers excel at understanding word\nrelationships, keeping context over long text, and processing information quickly.\nc. Pre-training: LLMs learn language patterns and context by processing massive datasets using\nself-supervised learning.\nWhy are LLMs important? They have transformed technology by enabling advanced applications like:\na. Content Creation: Writing, summarizing, and analyzing text.\nb. Code Generation: Tools like GitHub Copilot and Amazon CodeWhisperer assist developers with\ncoding tasks.\nc. Language Translation: Accurate and context-aware translations.\nd. Customer Service: Chatbots and virtual assistants for natural, human-like interactions.\nAWS Connection:\na. Amazon Bedrock makes it easy to access LLMs, including Amazon Titan Text and third-party\nmodels, for various applications."
+    },
+    {
+      "page": 54,
+      "text": "Tokens, Embeddings and Vectors\n1.\n\nTokens: The smallest text units used by LLMs for processing, often broken into subword pieces for\neﬃciency.\n\n2.\n\nEmbeddings: Numerical vector representations of tokens that capture meaning and relationships in a\nhigh-dimensional space.\n\n3.\n\nVector Space: The mathematical environment where embeddings exist, allowing models to compare\nword relationships and perform similarity searches.\n\n4.\n\nSemantic Search: Uses embeddings to ﬁnd relevant content based on meaning, not just keywords—key\nfor AI-powered search applications.\n\n5.\n\nAWS Services:\n\n6.\n\nAmazon OpenSearch enables vector-based search for semantic matching.\n\n7.\n\nAmazon Bedrock provides access to embedding models, such as Amazon Titan Embeddings G1 and\nmodels from Cohere.\n\n8.\n\nChunking: A method for handling long texts that exceed token limits by splitting them into overlapping\nsegments while preserving context."
+    },
+    {
+      "page": 55,
+      "text": "Multimodal Models\n1.\n\nMultimodal Models can process and generate multiple types of data simultaneously, such as text,\nimages, audio, and video.\n\n2.\n\nThey learn the relationships between different modalities, allowing them to combine and understand\ndata in a more holistic way.\n\n3.\n\nThey differ from LLMs (unimodal models), which are limited to text-based input and output.\n\n4.\n\nThey represent a major step forward in AI, enabling more human-like understanding and interaction\nwith the world."
+    },
+    {
+      "page": 56,
+      "text": "Diffusion Models\n1.\n\nDiffusion Models start with random noise and gradually reﬁne it into meaningful outputs, like images,\ntext, or audio.\n\n2.\n\nThey operate in two main steps:\na.\n\nForward Diffusion: Gradually adds noise to structured data until it becomes pure noise.\n\nb.\n\nReverse Diffusion: Gradually removes noise from random data to generate a coherent output.\n\n3.\n\nPopular services using diffusion models include Stable Diffusion, DALL·E, and MidJourney.\n\n4.\n\nTheir ability to learn patterns through noise makes them incredibly powerful and versatile.\n\n5.\n\nImportant: Diffusion models cannot interpret image content."
+    },
+    {
+      "page": 57,
+      "text": "The Foundation Model Lifecycle - 1\n1.\n\nThe Foundation Model Lifecycle consists of the following stages:\na.\n\nData Collection & Preprocessing: Gathering and preparing high-quality, diverse data. Key\nconsiderations: Relevance, Diversity, Quality.\n\nb.\n\nModel Development (Architecture Selection & Conﬁguration): Choosing the right architecture for\nthe task. E.g. Transformers, CNNs.\n\nc.\n\nPre-training: Training the model on large datasets to learn general patterns. E.g. a language model\nlearns grammar, sentence structure, and word relationships.\n\nd.\n\nFine-tuning: Adapting the model to speciﬁc tasks with smaller datasets.\ni.\n\nKey point: Fine-tuning is typically a supervised learning process, where the model learns\nfrom labeled examples.\n\nii.\n\nAdditional technique: Reinforcement Learning from Human Feedback (RLHF) can be used\nto align the model’s behavior with human values and expectations."
+    },
+    {
+      "page": 58,
+      "text": "The Foundation Model Lifecycle - 2\ne.\n\nEvaluation & Validation: Testing the model for accuracy, robustness, and fairness.\ni.\n\nHuman evaluation and Benchmark datasets (e.g., GLUE, SuperGLUE) are often used for\nevaluation.\n\nf.\n\nDeployment: Integrating the model into real-world applications. E.g. embedding the model in a web\napplication.\n\ng.\n\nMonitoring, Feedback & Iteration: Continuously improving the model based on user feedback and\nnew data. Retraining or ﬁne-tuning the model to address issues.\n\n2.\n\nAI models are not static - they need to evolve to remain effective and reliable."
+    }
+  ],
+  "6": [
+    {
+      "page": 59,
+      "text": "SECTION 6"
+    },
+    {
+      "page": 60,
+      "text": "Disadvantages of Generative AI\n1.\n\nRegulatory Violations: GenAI may break laws. → Mitigation: Follow governance policies, monitor\ncompliance, and involve legal teams.\n\n2.\n\nSocial Risks: GenAI can spread misinformation or bias. → Mitigation: Select training data carefully,\naudit for bias, and set ethical guidelines.\n\n3.\n\nData Security & Privacy: Sensitive data might be exposed. → Mitigation: Use anonymized data, encrypt\ninformation, and conduct security audits.\n\n4.\n\nToxicity: AI can generate offensive content. → Mitigation: Filter harmful data, use moderation tools,\nand apply human review.\n\n5.\n\nHallucinations: AI may generate false information. → Mitigation: Verify outputs, use RAG, browsing,\nand ﬁne-tuning.\n\n6.\n\nInterpretability: AI decisions can be unclear. → Mitigation: Use simpler models and explainability\ntechniques.\n\n7.\n\nNondeterminism: AI can give inconsistent answers. → Mitigation: Use deterministic algorithms and\nperform extensive testing."
+    },
+    {
+      "page": 61,
+      "text": "Advantages of Generative AI\n1.\n\nKey Advantages of GenAI:\na.\n\nAdaptability: Learns and adapts to new contexts.\n\nb.\n\nResponsiveness: Provides real-time, immediate feedback.\n\nc.\n\nSimplicity: Simpliﬁes complex tasks for users of all skill levels.\n\nd.\n\nCreativity: Enables creativity and innovative problem-solving.\n\ne.\n\nData Eﬃciency: Operates eﬃciently with minimal input data.\n\nf.\n\nPersonalization: Delivers personalized, context-aware outputs.\n\ng.\n\nScalability: Scales to handle global-level enterprise needs."
+    },
+    {
+      "page": 62,
+      "text": "Model Selection Factors for GenAI\n1.\n\nWhen selecting a GenAI Model, consider the following:\na.\n\nDeﬁne your task: Know exactly what the model needs to accomplish.\n\nb.\n\nChoose the right model type: Text, image, or multimodal capabilities.\n\nc.\n\nSet performance expectations: Match the model’s reliability and scalability to your needs.\n\nd.\n\nAccount for constraints: Assess your resources and deployment environment.\n\ne.\n\nEvaluate capabilities: Look for features that meet your business requirements.\n\nf.\n\nEnsure compliance: Prioritize ethical and regulatory standards.\n\ng.\n\nConsider cost: Balance performance with budget and scalability."
+    },
+    {
+      "page": 63,
+      "text": "Business Value Assessment\n1.\n\nUser Satisfaction: Measure user happiness with AI outputs\n\n2.\n\nCross-Domain Performance: Assess AI performance across business areas.\n\n3.\n\nEﬃciency: Track time and effort saved by the AI.\n\n4.\n\nConversion Rate: Evaluate the AI's impact on customer conversion.\n\n5.\n\nAverage Revenue Per User (ARPU): Monitor revenue generated per user.\n\n6.\n\nCustomer Lifetime Value (CLV): Measure total customer lifetime revenue."
+    }
+  ],
+  "7": [
+    {
+      "page": 64,
+      "text": "SECTION 7"
+    },
+    {
+      "page": 65,
+      "text": "Amazon Bedrock - 1\n1.\n\nAmazon Bedrock is a fully managed service that provides access to foundation models through a\nuniﬁed API, requiring zero infrastructure management.\n\n2.\n\nThe service offers foundation models (FMs) from leading AI companies including AI21 Labs,\nAnthropic, Cohere, Meta, Mistral AI, Stability AI and more.\n\n3.\n\n4.\n\nThree core features that make Bedrock powerful:\na.\n\n[Important] Private model customization with your data.\n\nb.\n\nEnterprise-grade security and privacy.\n\nc.\n\nSeamless integration with AWS services.\n\nTwo ﬂexible pricing options:\na.\n\nOn-demand: Pay per use (tokens/images).\n\nb.\n\nProvisioned throughput: Reserved capacity for consistent workloads (mandatory for ﬁne-tuning\npre-trained models)."
+    },
+    {
+      "page": 66,
+      "text": "Amazon Bedrock - 2\n5.\n\n6.\n\nKey capabilities include:\na.\n\nModel experimentation through interactive playgrounds.\n\nb.\n\nKnowledge Base creation for enhanced responses.\n\nc.\n\nAgent building for automated tasks.\n\nd.\n\nFine-tuning options for model customization.\n\ne.\n\nBuilt-in safety features and guardrails.\n\nAmazon Bedrock is continuously evolving, with new models and features being added regularly.\n\nDisclaimer: This overview highlights key features of Amazon Bedrock. For a\ncomprehensive understanding, please refer to the oﬃcial AWS documentation\nand watch the rest of the videos related to Amazon Bedrock.\nhttps://aws.amazon.com/documentation-overview/bedrock/\nhttps://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html"
+    },
+    {
+      "page": 67,
+      "text": "Why Should You Use the AWS infrastructure for GenAI?\n1.\n\nAWS offers signiﬁcant advantages and beneﬁts for developing generative AI applications:\n\n2.\n\nKey Advantages:\n\n3.\n\na.\n\nAccessibility: Broad access for all, from startups to enterprises, via pre-built services.\n\nb.\n\nEase of Use: Lower barrier to entry with simpliﬁed tools and resources.\n\nc.\n\nEﬃciency: Scalable infrastructure for faster model training and data processing.\n\nd.\n\nCost-Effectiveness: Pay-as-you-go pricing for optimized cost management.\n\ne.\n\nSpeed and Agility: Faster time to market and ﬂexible business alignment.\n\nKey Beneﬁts:\na.\n\nSecurity: Comprehensive security features, infrastructure protection, data safeguards, and\nAI-speciﬁc protections.\n\nb.\n\nCompliance: Adherence to global compliance standards for regulated industries.\n\nc.\n\nResponsibility: Emphasis on ethical and transparent AI practices.\n\nd.\n\nSafety: Tools for risk mitigation, bias detection, and content moderation."
+    },
+    {
+      "page": 68,
+      "text": "PartyRock\n1.\n\nPartyRock is a no-code platform for building AI applications.\n\n2.\n\nYou can get started without an AWS account.\n\n3.\n\nIt’s powered by Amazon Bedrock’s foundation models.\n\n4.\n\nPartyRock is perfect for experimenting with AI applications in a user-friendly environment.\n\n5.\n\nIt includes a free trial period to explore its features.\n\n6.\n\nAnd it offers a smooth transition to Amazon Bedrock for production-level projects."
+    },
+    {
+      "page": 69,
+      "text": "Amazon SageMaker JumpStart\n1.\n\nJumpStart simpliﬁes ML workﬂows by offering access to over 350 built-in algorithms, pre-trained\nmodels, and pre-built solutions.\n\n2.\n\nIt includes popular foundation models like Stable Diffusion, BLOOM and more.\n\n3.\n\nIntegration with Amazon Bedrock enhances its capabilities.\n\n4.\n\nUsers are responsible for managing the underlying infrastructure and operational tasks.\n\n5.\n\nPrivate hubs allow curated model sharing within organizations but don’t support uploading custom\nmodels.\n\n6.\n\nSecurity and access control are managed through AWS Identity and Access Management (IAM) roles\nand policies\n\n7.\n\nSageMaker Instances: Virtual machines used for developing and training your machine learning models.\nYou only pay when they are running.\n\n8.\n\nSageMaker Endpoints: Deployments of your trained models, accessible via a URL for making\npredictions. You pay for continuous availability."
+    },
+    {
+      "page": 70,
+      "text": "Amazon Q\n1.\n\nAmazon Q Offers Two Versions:\na.\n\nb.\n\nAmazon Q Business:\ni.\n\nFor everyday users to access company documents, create content, and answer questions.\n\nii.\n\nIntegrates with tools like SharePoint, Jira, and Amazon WorkDocs.\n\niii.\n\nAvailable as browser extensions (Chrome, Firefox, Edge).\n\niv.\n\nWorks with QuickSight for Business Intelligence (BI), focusing on data visualization.\n\nAmazon Q Developer:\ni.\n\n2.\n\nSupports developers (e.g. code conversion, troubleshooting, and AWS best practices).\n\nCore Features Across Both:\na.\n\n[Important] Built on Amazon Bedrock with multiple foundation models.\n\nb.\n\nEnterprise-grade security with permission-based access.\n\nc.\n\nNatural language interaction.\n\nd.\n\nReads, creates, and moves data.\n\ne.\n\nVisual content analysis (diagrams, charts, PDFs).\n\nf.\n\nNo-code application creation via Amazon Q Apps."
+    },
+    {
+      "page": 71,
+      "text": "AWS AI/ML Service Stack - 1\n1.\n2.\n\nML Frameworks Layer:\na. Amazon SageMaker AI: For custom ML model development and end-to-end workﬂows.\nAI/ML Services Layer (categorized by functionality):\na. Text and Documents:\ni. Amazon Comprehend: Content understanding.\nii. Amazon Translate: Language translation.\niii. Amazon Textract: Document scanning and data extraction.\nb. Conversational AI:\ni. Amazon Lex: Chatbot development.\nc. Speech Services:\ni. Amazon Polly: Text-to-speech.\nii. Amazon Transcribe: Speech-to-text.\nd. Vision Services:\ni. Amazon Rekognition: Image and video analysis.\ne. Enterprise Search:\ni. Amazon Kendra: Intelligent document search.\nf. Recommendations:\ni. Amazon Personalize: Personalized recommendation systems."
+    },
+    {
+      "page": 72,
+      "text": "AWS AI/ML Service Stack - 2\n3.\n\nGenerative AI Layer:\na. Amazon SageMaker JumpStart: Quick access to pre-built models and solutions.\nb. Amazon Bedrock: API access to foundation models.\nc. PartyRock: Generative AI platform for specialized tasks.\nd. Amazon Q Business: Workplace AI assistant for business users.\ne. Amazon Q Developer: AI assistant tailored for developers and technical teams."
+    },
+    {
+      "page": 73,
+      "text": "Cost Considerations for AWS AI/LM Services\n1.\n\nAWS offers both on-demand (pay-as-you-go) and provisioned pricing models.\n\n2.\n\nHigher responsiveness and availability come with increased costs, especially for multi-region\ndeployments.\n\n3.\n\nRedundancy across multiple locations provides reliability but requires additional resource costs.\n\n4.\n\nPerformance options vary from CPU to GPU, with costs increasing for higher-performance hardware.\n\n5.\n\nToken-based pricing means you pay for the amount of content processed.\n\n6.\n\nProvisioned throughput offers guaranteed capacity at a premium price.\n\n7.\n\nCustom model development and deployment incur additional costs compared to using pre-trained\nmodels."
+    }
+  ],
+  "8": [
+    {
+      "page": 74,
+      "text": "SECTION 8"
+    },
+    {
+      "page": 75,
+      "text": "Factors То Consider When Choosing A FM\n1.\n\nFoundation models (FMs) are pre-trained AI systems that can be adapted for various tasks.\n\n2.\n\nHere are the top ten considerations when choosing an FM:\n2.1.\n\nCost: Balance initial and operational expenses.\n\n2.2.\n\nModality: Match the model to your data type (text, images, etc.).\n\n2.3.\n\nLatency: Prioritize fast response for real-time applications.\n\n2.4.\n\nMulti-lingual Support: Ensure the model handles required languages.\n\n2.5.\n\nModel Size: Fit the model size to your computational resources.\n\n2.6.\n\nModel Complexity: Choose sophistication based on task needs.\n\n2.7.\n\nCustomization: Determine if ﬁne-tuning is required.\n\n2.8.\n\nInput/Output Limits: Check data processing capacity.\n\n2.9.\n\nResponsibility: Mitigate bias, ensure ethics, and comply with regulations.\n\n2.10.\n\nDeployment & Integration: Ensure compatibility with existing systems."
+    },
+    {
+      "page": 76,
+      "text": "Temperature, Top K, Top P, Input/Output Length - 1\n1.\n\nAI models generate text by assigning probabilities to possible word choices. Inference parameters\ncontrol how the model makes these selections:\n\n2.\n\n3.\n\n4.\n\nTemperature (Creativity Control):\na.\n\nLow (0.2): Predictable outputs (e.g., reports, summaries).\n\nb.\n\nMedium (0.7): Balanced creativity and reliability (e.g., emails, ideas).\n\nc.\n\nHigh (1.0): Creative, diverse outputs (e.g., creative writing).\n\nTop P (Nucleus Sampling): Controls cumulative probability.\na.\n\nLow (0.3): Uses only top options until 30% cumulative probability.\n\nb.\n\nHigh (0.9): Includes more diverse options.\n\nTop K: Limits the number of options considered.\na.\n\nTop K = 5: Uses only top 5 options.\n\nb.\n\nTop K = 50: More variety, controlled choices."
+    },
+    {
+      "page": 77,
+      "text": "Temperature, Top K, Top P, Input/Output Length - 2\n5.\n\n6.\n\nContext Window & Length:\na.\n\nTotal input and output tokens must ﬁt within the model’s context window.\n\nb.\n\nExample: With a 4,000-token window, 3,000 tokens input leaves room for 1,000 tokens output.\n\nCommon Combinations:\na.\n\nCreative Writing: High Temperature (0.7–1.0), High Top P (0.9)\n\nb.\n\nFactual/Technical: Low Temperature (0.2–0.4), Low Top P (0.3)\n\nc.\n\nBalanced: Medium Temperature (0.5–0.7), Medium Top P (0.7)"
+    },
+    {
+      "page": 78,
+      "text": "What Is Retrieval Augmented Generation (RAG)? - 1\n1.\n\n2.\n\n3.\n\nCore Retrieval Augmented Generation (RAG) Concepts:\na.\n\nRAG enhances foundation models (FM) without modifying their weights.\n\nb.\n\nProvides real-time context during inference without altering the model’s \"brain.\"\n\nc.\n\nRAG is an architectural pattern, not a training method.\n\nKey RAG Process (Important for exam scenarios):\na.\n\nIngest: Documents → Chunks → Embeddings → Vector Store\n\nb.\n\nRetrieve: Query → Vector → Similarity Search\n\nc.\n\nAugment: Combine Query + Retrieved Context\n\nd.\n\nGenerate: FM produces contextually accurate response\n\nAWS Services for RAG:\na.\n\nAmazon S3: Document storage\n\nb.\n\nAWS OpenSearch: Vector database operations\n\nc.\n\nAmazon Titan Embeddings: Vector generation\n\nd.\n\nAmazon Bedrock / SageMaker AI: FM inference"
+    },
+    {
+      "page": 79,
+      "text": "What Is Retrieval Augmented Generation (RAG)? - 2\n4.\n\n5.\n\nKey Technical Beneﬁts:\na.\n\nNo retraining required.\n\nb.\n\nReal-time knowledge updates.\n\nc.\n\nReduced hallucinations (more accurate, grounded responses).\n\nd.\n\nCost-effective compared to ﬁne-tuning.\n\nBusiness Value:\na.\n\nAdapts general-purpose FMs to speciﬁc domains.\n\nb.\n\nMaintains up-to-date knowledge.\n\nc.\n\nProvides traceable sources for responses.\n\nd.\n\nScales eﬃciently with growing knowledge bases."
+    },
+    {
+      "page": 80,
+      "text": "Amazon Bedrock - RAG and Knowledge Bases\n1.\n\nAmazon Bedrock Knowledge Bases fully manages the entire RAG workﬂow, from data ingestion to\nresponse generation.\n\n2.\n\nPre-processing involves document splitting, embedding creation, and vector storage.\n\n3.\n\nRuntime handles query processing, information retrieval, and response generation, including multi-turn\nconversations.\n\n4.\n\nMultiple data sources (Amazon S3, Conﬂuence, Salesforce, and SharePoint) and vector database\noptions (OpenSearch Serverless, Amazon Aurora PostgreSQL, Pinecone, Redis Cloud, and MongoDB\nAtlas) are supported."
+    },
+    {
+      "page": 81,
+      "text": "Vector Database Options For Storing Embeddings\n1.\n\nKey Databases for Vector Embedding Storage:\na.\n\nAmazon OpenSearch Service: Best for storing millions of embeddings, high-performance\nsimilarity search, horizontal scaling, and low-latency operations.\n\nb.\n\nAmazon Neptune: Ideal if you need both graph database features and vector search, maintaining\ncomplex data relationships.\n\nc.\n\nAmazon Aurora & Amazon RDS for PostgreSQL: Suitable for moderate vector storage needs,\nespecially if you're already using relational databases and cost optimization is important. The\npgvector extension enables vector search.\n\nd.\n\nAmazon DocumentDB: Best when your primary data model is document-based, and you need\nMongoDB compatibility along with vector search.\n\n2.\n\nExam Tips:\n\n3.\n\nFocus on similarity search, scalability, and performance requirements when choosing the right database\nfor a use case.\n\n4.\n\nOpenSearch is your best bet for large-scale vector search, Neptune for graph-based needs, and\nAurora/RDS/PostgreSQL for moderate workloads with relational data."
+    },
+    {
+      "page": 82,
+      "text": "Foundation Model Customization Methods - 1\n1.\n\n2.\n\n3.\n\n4.\n\nMost Expensive: Pre-training\na. Requires massive computational resources\nb. Involves extensive data processing\nc. Demands signiﬁcant technical expertise\nModerately Expensive: Fine-tuning\na. Needs specialized hardware for training\nb. Requires domain expertise\nc. Involves ongoing maintenance\nModerately Expensive: Continued Pre-training\na. Uses unlabeled data\nb. Requires secure environment setup\nc. Needs domain-speciﬁc data preparation\nMore Affordable: RAG\na. Primary costs come from storage and retrieval\nb. Requires vector database setup\nc. Lower computational demands"
+    },
+    {
+      "page": 83,
+      "text": "Foundation Model Customization Methods - 2\n5.\n\n6.\n\nMost Cost-effective: In-context Learning\na. No additional training costs\nb. Uses existing model capabilities\nc. Minimal technical expertise needed\nKey Points to Remember\na. Pre-training builds foundational knowledge\nb. Fine-tuning modiﬁes model weights for speciﬁc tasks\nc. Continued pre-training enhances domain knowledge using unlabeled data\nd. RAG enhances responses without changing model weights\ne. In-context learning requires no parameter updates\nf. Cost increases with customization complexity"
+    },
+    {
+      "page": 84,
+      "text": "Amazon Bedrock: Agents\n1.\n\nAmazon Bedrock Agents automate multi-step tasks, freeing up your teams for higher-value work.\n\n2.\n\nThey use foundation models, APIs, and data to break down complex workﬂows.\n\n3.\n\nKey features include:\n\n4.\n\n5.\n\na.\n\nEasy setup\n\nb.\n\nMemory retention\n\nc.\n\nBuilt-in security\n\nd.\n\nMulti-agent collaboration\n\nAgents play crucial roles as:\na.\n\nIntermediaries\n\nb.\n\nAction launchers\n\nc.\n\nProviders of valuable feedback for model improvement\n\nAction Groups simplify action management and promote reusability."
+    }
+  ],
+  "9": [
+    {
+      "page": 85,
+      "text": "SECTION 9"
+    },
+    {
+      "page": 86,
+      "text": "What Is Prompt Engineering?\n1.\n2.\n3.\n\n4.\n\nPrompt Engineering is optimizing textual input to AI Models to get desired responses.\na. Think of it as effective communication with AI models.\nLatent space is the model's internal mathematical workspace where it processes prompts and\ngenerates responses.\nA well-crafted prompt has four key components:\na. Instructions: speciﬁc tasks/directions for the model.\nb. Context: background information and frameworks.\nc. Input Data: speciﬁc information to process.\nd. Output Indicator: desired format/type of response.\nNegative Prompting technique:\na. Explicitly tells the model what to avoid/exclude.\nb. Used to eliminate unwanted content.\nc. Helps avoid speciﬁc writing styles.\nd. Prevents model assumptions.\ne. Maintains focus on relevant information."
+    },
+    {
+      "page": 87,
+      "text": "Prompt Engineering Techniques\n1.\n\nZero-Shot Prompting:\na.\n\n2.\n\nRelies on the LLM's existing knowledge; best for simple, common-sense tasks.\n\nFew-Shot Prompting (including Single-Shot):\na.\n\nProvides a few (or just one in the case of Single-Shot) examples to guide the model; effective for\ntasks requiring speciﬁc formats or styles.\n\n3.\n\nChain-of-Thought Prompting:\na.\n\n4.\n\nEncourages step-by-step reasoning; crucial for complex problem-solving.\n\nPrompt Templates:\na.\n\nPredeﬁned prompt structures; ensure consistency and streamline repetitive tasks."
+    },
+    {
+      "page": 88,
+      "text": "Optimizing Prompts for Quality and Speciﬁcity\n1.\n\nClarity and Conciseness: Use simple, direct language for unambiguous instructions.\n\n2.\n\nContext is Key: Provide relevant background information for more accurate and relevant responses.\n\n3.\n\nConsidering the Desired Output: Specify the format, style, and tone to guide the LLM to deliver results\nthat meet your needs.\n\n4.\n\nBreaking Down Complex Tasks: Divide complex requests into smaller prompts for more effective\nprocessing and higher-quality outputs. This also facilitates more effective chain-of-thought prompting.\n\n5.\n\nExperimentation and Iteration: Reﬁne your prompts through different phrases and approaches to\ndiscover what works best.\n\n6.\n\nUsing Prompt-Level Controls: Fine-tune the LLM's response by specifying output length, restricting\ntopics, or deﬁning the desired tone.\na.\n\nRemember, while helpful for reﬁning outputs, responsible AI relies primarily on platform-level\nguardrails and ethical AI practices."
+    },
+    {
+      "page": 89,
+      "text": "Understanding AI Vulnerabilities\n1.\n\nExposure: Sensitive data used to train or operate an AI model is unintentionally revealed. This could\ninclude personally identiﬁable information (PII) like names, addresses, or purchase history.\n\n2.\n\nPoisoning: Malicious data is injected into the training dataset to manipulate the model's behavior. This\ncan cause the model to produce incorrect or biased outputs.\n\n3.\n\nModel Hijacking (Backdoor Attack): A trained AI model is secretly modiﬁed to perform unintended tasks\nwhile still functioning normally. For example, an image recognition model for pets could be hijacked to\nalso identify faces.\n\n4.\n\nPrompt Injection: Carefully crafted prompts trick an LLM into bypassing its intended purpose or safety\nguidelines. This can lead to the generation of harmful, biased, or inappropriate content.\n\n5.\n\nJailbreaking: Safety restrictions in an LLM are bypassed, allowing it to generate content that would\nnormally be prohibited. This can be achieved through speciﬁc prompts, exploiting internal logic\nweaknesses, or other techniques."
+    }
+  ],
+  "10": [
+    {
+      "page": 2,
+      "text": "Prompt\nEngineering\nEssentials And AI\nVulnerabilities\n\nFine-Tuning FMs Deep Dive\n(Section 10)\n\n(Section 9)\n\nEvaluating FMs:\nMethods and\nMetrics\n(Section 11)\n\nResponsible AI\nDevelopment: Key\nConcepts And\nConsiderations\n(Section 12)\n\n(Section 13)\n\nEssential Security\nPractices and\nTools on AWS\n\nData Security and\nGovernance for AI\nSystems\n\nAI Security,\nCompliance, and\nGovernance\n\n(Section 14)\n\n(Section 15)\n\n(Section 16)\n\nPractice Exam #1\n\nPractice Exam 2\n\n(Section 17)\n\n(Section 17)\n\nExam Tips & Final\nWords\n\nMaking AI\nUnderstandable\n\n(Section 18)"
+    },
+    {
+      "page": 90,
+      "text": "SECTION 10"
+    },
+    {
+      "page": 91,
+      "text": "Methods For Fine-Tuning An FM\n1.\n\nInstruction Tuning: Best when you want the model to follow speciﬁc instructions and generalize to new\ntasks with clear commands. It focuses on providing explicit guidance through natural language.\n\n2.\n\nRLHF: Ideal for tasks where deﬁning a clear objective function is diﬃcult, such as generating creative text\nor engaging in open-ended dialogues. It uses human feedback to align the model's outputs with human\npreferences.\n\n3.\n\nTransfer Learning (within Fine-Tuning): Fine-tuning itself leverages pre-trained knowledge. The key is\ndeciding which layers to adjust: ﬁne-tuning all layers maximizes adaptability (but is costly and can\noverﬁt), while freezing earlier layers is more eﬃcient and prevents overﬁtting, especially for similar tasks.\n\n4.\n\nContinuous Pre-training (as a precursor): Best when you have abundant unlabeled data in a speciﬁc\ndomain. It enhances domain knowledge before ﬁne-tuning for better results. This differs from standalone\ncontinuous pre-training."
+    },
+    {
+      "page": 92,
+      "text": "Data Preparation For Fine-Tuning an FM\n1.\n\nTo successfully ﬁne-tune a model, remember that data quality, relevance, and speciﬁcity are\nfundamental.\n\n2.\n\nData Curation: Use Amazon SageMaker Data Wrangler for cleaning, transforming, and preparing your\ndata, and Amazon S3 for storage.\n\n3.\n\nData Governance: Leverage AWS Lake Formation and IAM for data security and access control.\n\n4.\n\nData Size: Use Amazon Athena to query and analyze large datasets.\n\n5.\n\nData Labeling: Utilize Amazon SageMaker Ground Truth for eﬃcient and accurate labeling (necessary\nfor ﬁne-tuning).\n\n6.\n\nData Representativeness: Use Amazon QuickSight for data visualization.\n\n7.\n\nFeedback Integration: Monitor performance with Amazon CloudWatch."
+    }
+  ],
+  "11": [
+    {
+      "page": 93,
+      "text": "SECTION 11"
+    },
+    {
+      "page": 94,
+      "text": "Different Approaches to Evaluate Foundation Models\n1.\n2.\n\n3.\n\n4.\n\n5.\n\nEvaluating Foundation Models is crucial for understanding their performance and comparing different\nmodels. We explored two primary methods:\nHuman evaluation: Involves human assessors judging model outputs based on criteria like ﬂuency,\ncreativity, and accuracy. It captures nuanced aspects of quality but can be subjective and\nresource-intensive.\nBenchmark datasets: Standardized datasets with labeled data used for objective and quantiﬁable\nmeasurements. They allow for direct comparison between models but may not perfectly represent\nreal-world scenarios.\nKey Benchmark Examples:\na. GLUE: This dataset evaluates tasks like text classiﬁcation, question answering, and natural\nlanguage inference.\nb. SuperGLUE: A more challenging version of GLUE, focusing on tasks requiring deeper reasoning.\nc. SQuAD: Speciﬁcally designed for question answering tasks, where models must identify the\nanswer within a given text passage.\nd. ImageNet: Used for image classiﬁcation and object detection.\ne. CodeXGLUE: Focuses on code-related tasks like translation, completion, and summarization.\nCombined approach: Often, both human evaluation and benchmark datasets are used together to\nprovide a comprehensive assessment of a Foundation Model’s performance."
+    },
+    {
+      "page": 95,
+      "text": "Foundation Model Evaluation Metrics\n1.\n\n2.\n\n3.\n\n4.\n\n5.\n\nPerplexity: Measures how \"surprised\" a language model is by a sequence of words; lower is better\n(typical range: 5-20 for good models).\na. FMEval (an open-source library by AWS) in Amazon Bedrock and SageMaker AI can track\nperplexity.\nBLEU: Used for machine translation, measures n-gram overlap with reference translations (an n-gram is\na sequence of n words). Scores range from 0 to 1 (1 is perfect), with scores above 0.5 generally\nconsidered good.\na. SageMaker Clarify can calculate BLEU.\nROUGE: Used for text generation tasks like summarization and translation, focuses on recall. Scores\nrange from 0 to 1 (1 is perfect), and scores above 0.5 are generally considered good.\na. SageMaker Clarify can calculate ROUGE.\nBERTscore: Uses contextual embeddings to measure semantic similarity between generated and\nreference text. With scores above 0.8 often considered indicative of high semantic similarity.\na.\nSageMaker Model Monitor can track BERTscore.\nAccuracy & F1-score: Relevant when FMs are ﬁne-tuned for classiﬁcation tasks. Scores range from 0\nto 1 (1 meaning perfect performance).\na. SageMaker Model Monitor offers real-time monitoring of these metrics."
+    }
+  ],
+  "12": [
+    {
+      "page": 96,
+      "text": "SECTION 12"
+    },
+    {
+      "page": 97,
+      "text": "Responsible AI - Key Concepts\n1.\n\nKey Concepts For Responsible AI\na. Fairness: AI systems should be unbiased. Amazon SageMaker Clarify helps detect bias in data\nand models.\nb. Model Transparency: Transparency is key for regulatory needs.\ni. Interpretability: Understanding how a model works (internal mechanics).\nii. Explainability: Understanding what a model does.\niii. AWS AI Service Cards provide transparency documentation for AWS AI services.\nc. Performance-Transparency Tradeoff: Simpler models offer more transparency but potentially less\nperformance.\nd. Privacy and Security: Protecting sensitive data is crucial. Amazon Comprehend helps with PII\ndetection and removal.\ne. Veracity and Robustness:\ni. Veracity: Accurate and reliable data.\nii. Robustness: Withstanding unexpected inputs.\niii. Amazon Bedrock Guardrails help ensure robustness by ﬁltering harmful content.\nf. Governance: Frameworks for responsible AI development.\ng. Safety: Minimizing harm to humans and the environment.\nh. Controllability: Maintaining human oversight.\ni. Amazon SageMaker Model Monitor detects model drift, ensuring continued control."
+    },
+    {
+      "page": 98,
+      "text": "Responsible Model Selection: Environmental and\nSustainability Considerations\n1.\n\nEnergy Consumption: Large models can be energy-intensive. Choose eﬃcient models and optimize\ntraining processes. Consider purpose-built hardware like AWS Inferentia and Trainium, and the fact that\nAWS has already achieved its goal of powering its operations with 100% renewable energy.\n\n2.\n\nResource Utilization: Minimize data storage and processing needs through eﬃcient model selection.\nLeverage tools like Amazon SageMaker Feature Store and eﬃcient processor architectures like Graviton.\n\n3.\n\nEnvironmental Impact Assessment: Evaluate the potential environmental consequences of model\ndeployment, considering the full hardware lifecycle and the eﬃciency of cloud infrastructure compared to\non-premises.\n\n4.\n\nEconomic Considerations: Balance the economic beneﬁts of AI with potential social and environmental\ncosts like job displacement.\n\n5.\n\nSustainability: Strive for AI systems that are socially, environmentally, and economically sustainable in\nthe long term."
+    },
+    {
+      "page": 99,
+      "text": "Generative AI: Legal and Ethical Concerns\n1.\n\nToxicity: Generative AI can produce harmful outputs, including hate speech and offensive language, if not\nproperly mitigated.\na.\n\n2.\n\nHallucinations: Models can conﬁdently generate incorrect or fabricated information.\na.\n\n3.\n\nExample: Using AI to write an entire thesis.\n\nLoss of Customer Trust: Ethical lapses can damage a company's reputation.\na.\n\n6.\n\nExample: Generating a melody similar to a copyrighted song.\n\nPlagiarism/Cheating: Using AI to generate academic work raises ethical concerns.\na.\n\n5.\n\nExample: Inventing sources in a research paper.\n\nIntellectual Property: Questions arise about copyright ownership of AI-generated content.\na.\n\n4.\n\nExample: Abusive chatbot responses.\n\nExample: A news website publishing AI-generated articles with factual errors.\n\nBiased Model Outputs: Models can perpetuate and amplify biases present in the training data.\na.\n\nExample: An image generator struggling to depict women in leadership roles."
+    },
+    {
+      "page": 100,
+      "text": "Balance - An Essential Characteristic of High-Quality\nDatasets\n1.\n\nRepresentativeness: Balanced datasets accurately reﬂect real-world scenarios for better generalization\n– meaning the model performs well on new, unseen data, not just the data it was trained on.\n\n2.\n\nBias Mitigation: Balanced datasets are crucial for preventing biased models and promoting fairness.\n\n3.\n\nData Strategies: Achieve balance through inclusive data collection, careful curation, data\naugmentation, and re-sampling.\n\n4.\n\nCritical Applications: Balanced datasets are essential in sensitive areas like hiring, lending, and criminal\njustice.\n\n5.\n\nAWS Tools: Use Amazon SageMaker Clarify and Data Wrangler for bias detection and data preparation."
+    },
+    {
+      "page": 101,
+      "text": "Model Fit: Bias and Variance\n1.\n\n2.\n\nStatistical Bias: When a model makes overly simple assumptions.\na.\n\nIt misses important patterns in the data.\n\nb.\n\nHigh bias leads to underﬁtting.\n\nVariance: When a model is too sensitive to small ﬂuctuations in the training data.\na.\n\nIt performs well on training data but poorly on new data.\n\nb.\n\nHigh variance leads to overﬁtting.\n\n3.\n\nUnderﬁtting means the model is too simple and performs poorly on both training and new data.\n\n4.\n\nOverﬁtting means the model is too complex and performs well on training data but poorly on new data.\n\n5.\n\nThe goal is to ﬁnd a balance between bias and variance, achieving a good ﬁt that generalizes well to\nnew data.\na.\n\nThis balance requires both low bias and low variance."
+    }
+  ],
+  "13": [
+    {
+      "page": 102,
+      "text": "SECTION 13"
+    },
+    {
+      "page": 103,
+      "text": "AWS AI Service Cards\n1.\n\nAWS AI Service Cards are essential resources for anyone using Amazon's AI services. They provide:\na.\n\nIntended Use Cases: Clear insights into what the service is designed for and its limitations.\n\nb.\n\nResponsible Design Principles: Information on how the service incorporates fairness,\nexplainability, and other responsible AI practices.\n\nc.\n\nBest Deployment Practices: Practical guidance on deploying and using the service responsibly to\nensure ethical and effective AI development."
+    },
+    {
+      "page": 104,
+      "text": "SageMaker Model Cards\n1.\n\nCore Purpose: SageMaker Model Cards serve as the single source of truth for your models. Consider\nthe following key aspects:\na.\n\nResponsible AI: Promotes transparency and accountability.\n\nb.\n\nKey Information: Captures intended use, risk ratings, metrics, evaluations, and recommendations.\n\nc.\n\nLifecycle Management: Supports the entire model lifecycle from development to deployment.\n\nd.\n\n[Important] Audit and Communication: Aids in audits and facilitates stakeholder communication.\n\ne.\n\nVersion Control: Ensures an immutable record of all changes.\n\nf.\n\nComplementary to AI Service Cards: While AI Service Cards focus on entire AWS services, Model\nCards document individual models built within SageMaker."
+    },
+    {
+      "page": 105,
+      "text": "AWS SageMaker Clarify\n1.\n2.\n\n3.\n\n4.\n\nCore Purpose: SageMaker Clarify is designed to ensure fairness, transparency, and accountability in\nyour machine learning models.\nThree Core Functionalities:\na. Bias Detection: Identiﬁes and mitigates biases in both training data and model predictions.\nb. Model Explainability: Provides insights into how models make decisions.\nc. Model Monitoring: Tracks model performance over time to detect drifts and degradation.\nKey Features and Tools:\na. Data Bias Analysis: Analyzes training data for imbalances in feature distributions.\nb. Model Bias Analysis: Quantiﬁes biases in model predictions across different groups.\nc. Feature Importance: Identiﬁes the most inﬂuential features.\nd. Partial Dependence Plots: Visualizes the relationship between features and model output.\ne. Individual Prediction Explanations: Provides insights into individual predictions.\nf. Concept Drift Detection: Detects changes in input data distribution.\ng. Performance Degradation Detection: Monitors key performance metrics.\nFoundation Model Evaluation: Includes specialized metrics for evaluating foundation models (e.g.,\ntoxicity, bias in generated text, factual accuracy)."
+    },
+    {
+      "page": 106,
+      "text": "The 3 Key Principles Of Human-Centered Design For\nResponsible AI\n1.\n\nDesign for Ampliﬁed Decision-Making: AI acts as a tool that enhances human judgment.\n\n2.\n\nDesign for Unbiased Decision-Making: Implementing bias mitigation in practice.\n\n3.\n\nDesign for Human and AI Learning: Creating systems that improve through mutual feedback."
+    }
+  ],
+  "14": [
+    {
+      "page": 107,
+      "text": "SECTION 14"
+    },
+    {
+      "page": 108,
+      "text": "AI System Security & The AWS Shared Responsibility\nModel\n1.\n\nAI systems present unique security challenges, including vulnerabilities speciﬁc to large language\nmodels, as highlighted by the OWASP (Open Web Application Security Project) Top 10 for LLMs.\n\n2.\n\nA layered security approach (defense in depth) is essential for AI workloads, providing multiple layers\nof protection against various threats.\n\n3.\n\nThe AWS Shared Responsibility Model divides security responsibilities between AWS and the\ncustomer.\na.\n\nAWS is responsible for \"Security of the Cloud\", managing the underlying infrastructure, physical\nsecurity, and host operating systems.\n\nb.\n\nYou are responsible for \"Security in the Cloud\", managing guest operating systems, applications,\ndata, access controls, and conﬁgurations like Security Groups."
+    },
+    {
+      "page": 109,
+      "text": "Identity and Access Management (IAM)\n1.\n\nIdentity And Access Management (IAM) is the security system for your AWS account.\na.\n\nUsers represent individuals or applications and have long-term credentials.\n\nb.\n\nGroups are collections of users for easier permission management. Groups cannot be nested.\n\nc.\n\nPolicies deﬁne what actions are allowed or denied using JSON. Permissions are additive.\n\nd.\n\nPermissions are the speciﬁc abilities granted by a policy.\n\ne.\n\nRoles provide temporary permissions for users or AWS services and do not have credentials.\n\n2.\n\nUse MFA for enhanced security.\n\n3.\n\nUse groups to manage permissions eﬃciently.\n\n4.\n\nCreate individual IAM users for each person or application.\n\n5.\n\n[IMPORTANT] Never use the Root User for daily tasks.\n\n6.\n\nAlways follow The Principle of Least Privilege.\n\n7.\n\nUse IAM Access Analyzer to validate your policies."
+    },
+    {
+      "page": 110,
+      "text": "Network Security for AI Workloads - AWS PrivateLink\n1.\n\nPrivate Connectivity: PrivateLink provides private connectivity between your VPC and AWS services,\nservices hosted by other AWS accounts, and your own services in another VPC, without traversing\n(accessing) the public internet.\n\n2.\n\nEndpoints: It uses endpoints within your VPC, which are virtual network interfaces with private IP\naddresses, to connect to the services.\n\n3.\n\nEnhanced Security: By bypassing the internet, PrivateLink signiﬁcantly reduces the attack surface and\nprotects sensitive data.\n\n4.\n\nSimpliﬁed Network Architecture: It simpliﬁes network conﬁgurations by eliminating the need for\ninternet gateways, NAT devices, and public IP addresses for service communication.\n\n5.\n\nAI Use Cases: It’s particularly valuable for AI workloads involving services like Amazon SageMaker AI\nand Amazon S3, ensuring secure data access and model training within your VPC.\n\n6.\n\nRemember that your VPC is your private network in the cloud, and PrivateLink extends that private\nconnectivity to AWS services."
+    }
+  ],
+  "15": [
+    {
+      "page": 111,
+      "text": "SECTION 15"
+    },
+    {
+      "page": 112,
+      "text": "Secure Data Engineering Best Practices\n1.\n\n2.\n3.\n\n4.\n\nData Quality: Focus on these core metrics:\na. Completeness, Accuracy, Timeliness, and Consistency: Ensuring your data is a reliable foundation\nfor your AI models.\nPrivacy: Protect sensitive data with:\na. Masking, Obfuscation, Differential Privacy, Encryption, and Tokenization.\nData Access Control: Manage access and monitor activity using:\na. Data Governance Framework: Establishing clear policies.\nb. Role-Based Access Control (AWS IAM): Managing permissions using users, groups, and policies.\nc. Multi-Factor Authentication (MFA): Adding an extra layer of security.\nd. Monitoring and Logging (AWS CloudTrail & Amazon CloudWatch): Capturing API calls with\nCloudTrail and analyzing logs with CloudWatch to detect suspicious activity.\nData Integrity: Ensure data accuracy, reliability, and consistency using:\na. Data Validation: Checking for errors.\nb. Backup and Recovery (AWS Backup): Implementing robust backup strategies.\nc. Transaction Management: Guaranteeing data consistency during operations.\nd. Data Lineage Tracking (AWS Glue Data Catalog, AWS Lake Formation): Understanding data's origin\nand transformations."
+    },
+    {
+      "page": 113,
+      "text": "Data Provenance and Lineage\n1.\n\nData Provenance: This refers to the origin or source of your data, directly impacting data quality.\n\n2.\n\nData Lineage: This tracks the data's journey – how it was collected, transformed, and used. This is\nclosely related to data integrity and the need for audit trails.\na.\n\nImportance: Data provenance and lineage are essential for transparency, accountability, and\nbuilding trust in AI systems. These principles support the broader goals of secure data engineering.\n\n3.\n\nKey Practices: Source Citation and Data Cataloging are crucial for establishing clear data provenance\nand lineage.\n\n4.\n\nAWS CloudTrail & CloudWatch: These services provide the Audit Trails necessary for tracking data\naccess and changes, contributing to both secure data engineering and data lineage."
+    },
+    {
+      "page": 114,
+      "text": "Data Governance Strategies\n1.\n\nData Governance: Encompasses the processes and policies ensuring data is ﬁt for purpose within AI\ninitiatives. It deﬁnes roles, responsibilities, and standards for data usage. Data Governance Strategies\ninclude:\na.\n\nData Lifecycles: Managing data from creation to disposal, focusing on quality and compliance.\nThis includes establishing data retention policies.\n\nb.\n\nData Logging: Systematically recording data processing activities for auditing and tracking,\nleveraging services like AWS CloudTrail and Amazon CloudWatch Logs. This is essential for\nmaintaining audit trails and supporting data lineage.\n\nc.\n\nData Residency: Understanding and adhering to regulations regarding the physical location of data\nstorage.\n\nd.\n\nData Monitoring: Continuous observation and analysis of data used in AI to maintain quality and\nperformance."
+    }
+  ],
+  "16": [
+    {
+      "page": 115,
+      "text": "SECTION 16"
+    },
+    {
+      "page": 116,
+      "text": "Security and Privacy Considerations for AI Systems\n1.\n\nApplication Security: Implementing access controls and security measures within the AI application.\n\n2.\n\nThreat Detection: Actively monitoring for malicious activity and leveraging AWS Shield and AWS WAF\n(Web Application Firewall).\n\n3.\n\nVulnerability Management: Regularly assessing and updating systems to address weaknesses.\n\n4.\n\nData Protection: Implementing encryption and following the Shared Responsibility Model.\n\n5.\n\nSpecialized AI Protections: Addressing unique AI vulnerabilities like prompt injections through ﬁltering\nand validation."
+    },
+    {
+      "page": 117,
+      "text": "Regulatory Compliance Standards for AI Systems\n1.\n\nISO (speciﬁcally ISO/IEC 27002): A globally recognized standard providing best practices for\ninformation security management. Think of it as a broad set of security guidelines, like anonymizing data.\n\n2.\n\nSOC Reports: Independent audits of AWS's controls, demonstrating their commitment to security.\nLeverage these reports for your own compliance efforts. For example, verifying data protection in S3.\n\n3.\n\nNIST 800-53: A robust set of security controls often used by U.S. federal information systems and as a\nbenchmark for others. For example, controlling access to AI models.\n\n4.\n\nEU AI Act: An emerging regulation categorizing AI by risk level, with banned, high-risk, and unregulated\ntiers.\n\n5.\n\nAlgorithmic Accountability Laws: Emerging regulations focused on fairness and transparency in\nautomated decision-making. Stay informed about the laws relevant to you, such as explaining AI\ndecision-making.\n\n6.\n\nAWS Audit Manager: Automates evidence collection, offers pre-built and custom frameworks, and\nprovides continuous auditing and reporting to simplify compliance."
+    },
+    {
+      "page": 118,
+      "text": "AWS Services for Governance and Compliance\n1.\n\nAWS Conﬁg: Tracks changes to your AWS resources, enabling you to audit conﬁgurations and detect\nnon-compliance.\n\n2.\n\nAmazon Inspector: Automates security assessments of your applications and infrastructure, identifying\nvulnerabilities and deviations from best practices.\n\n3.\n\nAWS Audit Manager: Automates evidence collection for audits, simplifying compliance with pre-built and\ncustom frameworks.\n\n4.\n\nAWS Artifact: Provides on-demand access to AWS compliance reports and agreements.\n\n5.\n\nAWS CloudTrail: Records API calls made within your AWS account, providing a detailed audit trail of all\nactions.\n\n6.\n\nAWS Trusted Advisor: Provides recommendations for optimizing your AWS infrastructure across cost,\nperformance, security, fault tolerance, and service limits."
+    },
+    {
+      "page": 119,
+      "text": "Governance Protocols and Frameworks for GenAI\n1.\n\nGenerative AI Security Scoping Matrix: A structured approach for assessing and mitigating risks by\nevaluating factors like data sensitivity, model sensitivity, deployment environment, access control, and\noutput validation. This is a key tool for proactive risk management.\n\n2.\n\nPolicies: Overarching rules and guidelines covering data privacy, ethical use, security, and regulatory\ncompliance.\n\n3.\n\nReview Cadence/Strategies: Regular reviews (code reviews, security audits, ethical reviews) to ensure\nongoing compliance and identify emerging risks.\n\n4.\n\nTransparency Standards: Being open about how your AI models work and the data they use to build\ntrust.\n\n5.\n\nTeam Training: Equipping your team with the knowledge and skills to develop and deploy AI responsibly."
+    },
+    {
+      "page": 120,
+      "text": ""
+    }
+  ]
+}
