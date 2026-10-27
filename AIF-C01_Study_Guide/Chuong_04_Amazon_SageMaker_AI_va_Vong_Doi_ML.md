@@ -73,16 +73,33 @@ mindmap
 
 #### Chi tiết 3 siêu tham số quan trọng nhất:
 1. **Learning Rate (Tốc độ học):**
+   - Kiểm soát **step size (bước nhảy)** trong quá trình tối ưu hóa (optimization) — tức là mức độ thay đổi trọng số sau mỗi lần cập nhật.
    - *Nếu quá nhỏ:* Mô hình học cực kỳ chậm, tốn thời gian và chi phí tính toán, có nguy cơ kẹt ở điểm cực tiểu địa phương.
    - *Nếu quá lớn:* Quá trình huấn luyện không hội tụ, mô hình nhảy vọt qua điểm tối ưu (overshooting).
 2. **Batch Size (Kích thước lô):**
-   - Số lượng mẫu dữ liệu được đưa vào mô hình trước khi trọng số được cập nhật.
+   - Số lượng mẫu dữ liệu (training examples) được đưa vào mô hình **trong một lần lặp (iteration)** trước khi trọng số được cập nhật.
    - *Batch nhỏ:* Cập nhật thường xuyên, tổng quát hóa tốt hơn nhưng tốn thời gian tính toán.
    - *Batch lớn:* Tận dụng tối đa sức mạnh song song của GPU, tăng tốc độ nhưng tốn nhiều bộ nhớ RAM/VRAM.
 3. **Epochs:**
    - Một Epoch là một lần mô hình đọc qua toàn bộ tập dữ liệu huấn luyện.
    - *Quá ít Epochs:* Mô hình chưa kịp học hết mẫu ➔ **Underfitting (Chưa khớp)**.
    - *Quá nhiều Epochs:* Mô hình ghi nhớ vẹt dữ liệu huấn luyện, mất khả năng dự đoán dữ liệu mới ➔ **Overfitting (Quá khớp)**.
+
+#### ⚠️ Phân biệt Batch Size vs Learning Rate (Câu thi thường gặp):
+
+> **Batch Size** quyết định **bao nhiêu mẫu dữ liệu được xử lý trong một lần lặp** (tần suất cập nhật trọng số).
+> **Learning Rate** quyết định **bước nhảy lớn hay nhỏ** khi cập nhật trọng số (step size during optimization).
+
+| Tiêu chí | Batch Size | Learning Rate |
+| :--- | :--- | :--- |
+| **Kiểm soát cái gì?** | Số lượng training examples trong một iteration | Mức độ (magnitude) thay đổi trọng số sau mỗi lần cập nhật |
+| **Ảnh hưởng đến** | Tần suất cập nhật trọng số và mức sử dụng bộ nhớ GPU | Tốc độ hội tụ và độ ổn định của quá trình huấn luyện |
+| **Giá trị quá nhỏ** | Cập nhật quá thường xuyên → chậm, nhiễu | Học quá chậm → mô hình không hội tụ |
+| **Giá trị quá lớn** | Tốn VRAM, kém tổng quát hóa | Nhảy qua điểm tối ưu → không ổn định |
+
+> [!WARNING]
+> **BẪY THI:** Đề thi thường đưa ra các phương án sai như: *"Batch size and learning rate are the same concept"* hoặc *"Learning rate controls the number of examples processed"* hoặc *"Both control regularization strength"*. Tất cả đều **SAI**.
+> **Đáp án đúng:** *"Batch size refers to the number of training examples used in one iteration, while learning rate controls the step size during optimization."*
 
 ---
 
@@ -95,6 +112,20 @@ Quy trình ML là một chu trình **lặp đi lặp lại (iterative, non-linea
    - *Data Collection:* Thu thập dữ liệu thô đưa vào Data Lake (**Amazon S3**).
    - *Data Preparation:* Làm sạch, xử lý giá trị khuyết thiếu (Null/NaN) với **SageMaker Data Wrangler**.
    - *Feature Engineering:* Tạo ra các biến đặc trưng có tính phân loại cao, lưu trữ tập trung trên **SageMaker Feature Store** để tái sử dụng giữa các nhóm.
+
+   **⚡ Phân biệt 4 dạng Feature Engineering (Câu thi trọng tâm - Chọn nhiều đáp án):**
+
+   | Dạng Feature Engineering | Ý nghĩa | Ví dụ thực tế | Thuộc Feature Engineering? |
+   | :--- | :--- | :--- | :--- |
+   | **Feature Creation** | Tạo biến **hoàn toàn mới** bằng cách kết hợp các biến có sẵn | Tạo biến `tỷ_lệ_phòng_tắm/phòng_ngủ` từ 2 cột sẵn có | ✅ **CÓ** |
+   | **Feature Transformation** | Chuyển đổi **định dạng** của biến hiện tại sang dạng phù hợp cho mô hình | One-hot encoding biến phân loại `neighborhood` thành vector số (0/1) | ✅ **CÓ** |
+   | **Feature Extraction** | Trích xuất **thành phần con** có ý nghĩa từ biến gốc | Tách `ngày_đăng_bán` thành 3 biến: `thứ_trong_tuần`, `tháng`, `năm` | ✅ **CÓ** |
+   | **Feature Selection** | Lựa chọn các biến **liên quan nhất** dựa trên tương quan (correlation) với biến mục tiêu | Chọn `diện_tích` và `số_phòng_ngủ` vì có tương quan cao với `giá_nhà` | ✅ **CÓ** |
+   | **Data Cleaning** | Loại bỏ bản ghi trùng, điền giá trị thiếu | Xóa duplicate records, fill NaN values | ❌ **KHÔNG** (thuộc Data Preparation) |
+   | **Data Partitioning** | Chia tập dữ liệu thành train/test | Split 80/20 | ❌ **KHÔNG** (thuộc Model Development) |
+
+   > [!TIP]
+   > **Mẹo ghi nhớ:** Feature Engineering = bất kỳ hành động nào **tạo mới, biến đổi, trích xuất, hoặc lựa chọn** các thuộc tính (features/variables) nhằm cải thiện khả năng dự đoán của mô hình. **Dọn dẹp dữ liệu (Cleaning)** và **chia tập dữ liệu (Partitioning)** KHÔNG phải Feature Engineering.
 4. **Model Development:**
    - *Chia tập dữ liệu:* **80% Training** (huấn luyện), **10% Validation** (tinh chỉnh siêu tham số và tránh overfitting), **10% Test** (kiểm định khách quan lần cuối).
    - *Huấn luyện quy mô lớn:* Sử dụng **SageMaker HyperPod** để huấn luyện phân tán trên hàng nghìn chip GPU/Trainium.

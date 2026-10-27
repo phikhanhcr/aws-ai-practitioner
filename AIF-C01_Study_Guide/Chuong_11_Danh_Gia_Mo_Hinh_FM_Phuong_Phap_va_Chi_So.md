@@ -12,6 +12,7 @@
   3. **ROUGE** (Đánh giá tóm tắt văn bản - *Dựa trên recall*)
   4. **BERTScore** (Đo độ tương đồng ngữ nghĩa bằng embedding)
   5. **Accuracy & F1-Score** (Đánh giá khi FM được tinh chỉnh cho bài toán phân loại)
+- Phân biệt 4 đặc tính chất lượng của Foundation Model: **Robustness**, **Generalizability**, **Interpretability**, **Efficiency**.
 - Nắm tính năng **Amazon Bedrock Model Evaluation** (Hỗ trợ đánh giá tự động và đánh giá bằng con người).
 
 ---
@@ -121,6 +122,33 @@ Văn bản mô hình AI sinh ra: "Phương tiện giao thông này có màu đ�
    - Không so sánh từng chữ cái bề mặt. Nó đưa cả 2 câu vào mạng Transformer BERT để tạo ra vector nhúng ngữ nghĩa.
    - Mô hình nhận ra vector của *"chiếc xe hơi"* và *"phương tiện giao thông"* nằm rất gần nhau trong không gian vector. ➔ Điểm BERTScore sẽ **RẤT CAO (> 0.85)**!
    - Đây là chỉ số thông minh nhất để đánh giá sự hiểu biết ngữ nghĩa thực chất của LLM.
+
+---
+
+### 4. Bốn đặc tính chất lượng của Foundation Model (Câu thi trọng tâm)
+
+Đề thi AIF-C01 yêu cầu phân biệt chính xác 4 đặc tính đánh giá chất lượng tổng thể của Foundation Model:
+
+| Đặc tính | Định nghĩa | Từ khóa nhận diện trong đề thi | Ví dụ minh họa |
+| :--- | :--- | :--- | :--- |
+| **Robustness (Tính bền vững)** | Khả năng duy trì **hiệu năng nhất quán** khi đối mặt với dữ liệu đầu vào đa dạng, bao gồm cả dữ liệu **khác biệt** so với tập huấn luyện (noisy, adversarial, out-of-distribution). | *"Consistent performance across varying inputs"*, *"Inputs that differ from training data"*, *"Handle noisy or adversarial data"* | FM vẫn trả lời chính xác khi nhận câu hỏi có lỗi chính tả, viết tắt, hoặc sử dụng tiếng lóng không có trong tập huấn luyện. |
+| **Generalizability (Tính tổng quát hóa)** | Khả năng **thích ứng và hoạt động tốt trên các tác vụ hoặc miền dữ liệu MỚI** chưa từng được huấn luyện cụ thể. | *"Perform well on unseen tasks"*, *"Adapt to new domains"*, *"Transfer knowledge across tasks"* | FM huấn luyện trên văn bản tiếng Anh có thể tóm tắt tài liệu tiếng Pháp mà không cần fine-tune riêng. |
+| **Interpretability (Tính diễn giải)** | Khả năng **giải thích cách thức bên trong** mà mô hình hoạt động — hiểu **HOW** mô hình đưa ra quyết định. | *"Understand HOW a model works internally"*, *"Transparent decision-making process"* | Có thể nhìn thấy token nào trong prompt có ảnh hưởng lớn nhất đến câu trả lời (attention visualization). |
+| **Efficiency (Tính hiệu quả)** | Khả năng sử dụng tối ưu **tài nguyên tính toán** (GPU, bộ nhớ, năng lượng, thời gian suy luận) để đạt được kết quả mong muốn. | *"Computational cost"*, *"Inference latency"*, *"Resource utilization"*, *"Energy consumption"* | Mô hình nhỏ hơn (7B params) suy luận nhanh gấp 10 lần mô hình lớn (70B) với chi phí thấp hơn nhiều. |
+
+> [!WARNING]
+> **BẪY THI KINH ĐIỂN — Robustness vs Generalizability:**
+> - **Robustness** = Cùng một tác vụ, nhưng đầu vào **bị biến dạng, khác biệt, nhiễu** → vẫn cho kết quả ổn định. *(Đối phó với adversarial/noisy data)*
+> - **Generalizability** = **Tác vụ hoàn toàn mới** mà mô hình chưa từng làm → vẫn hoạt động tốt. *(Transfer learning across domains)*
+>
+> **Đáp án mẫu:** *"Which characteristic describes a foundation model's ability to maintain consistent performance across varying inputs, including those that differ from its training data?"* → **Robustness** ✅ (KHÔNG phải Generalizability)
+
+#### Phân biệt thêm: Interpretability vs Explainability
+
+| Khái niệm | Câu hỏi trả lời | Ví dụ |
+| :--- | :--- | :--- |
+| **Interpretability** | **HOW** — Mô hình hoạt động như thế nào bên trong? | Hiểu kiến trúc, weights, attention patterns |
+| **Explainability** | **WHY** — Tại sao mô hình lại đưa ra dự đoán CỤ THỂ này? | SHAP values, SageMaker Clarify giải thích feature attribution |
 
 ---
 

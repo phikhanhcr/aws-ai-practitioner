@@ -67,6 +67,21 @@ mindmap
   - Sinh mã nguồn lập trình (**Amazon Q Developer**, CodeWhisperer).
   - Trợ lý ảo đàm thoại thông minh.
 
+#### ⚠️ Phân biệt Mục đích CHÍNH của Generative AI vs Traditional ML (Câu thi trọng tâm):
+
+| Công nghệ | Mục đích CHÍNH (Primary Purpose) | Ví dụ |
+| :--- | :--- | :--- |
+| **Traditional ML** | **Phân tích, phân loại, dự đoán** — Rút ra insight từ dữ liệu có sẵn | Phân loại email spam, dự đoán giá nhà, phát hiện gian lận |
+| **Generative AI** | **Tạo NỘI DUNG MỚI** tương tự dữ liệu huấn luyện — Create new content | Viết văn bản, vẽ hình ảnh, sinh code, soạn nhạc |
+
+> [!WARNING]
+> **BẪY THI:** Đề thi hỏi: *"What is the PRIMARY purpose of generative AI that distinguishes it from traditional machine learning?"*
+> - ❌ *"To identify anomalies"* → Đây là Unsupervised ML (Anomaly Detection)
+> - ❌ *"To classify data into categories"* → Đây là Supervised ML (Classification)
+> - ❌ *"To predict future values"* → Đây là Supervised ML (Regression)
+> - ❌ *"To optimize decision-making"* → Đây là Reinforcement Learning
+> - ✅ **"To create new content similar to its training data"** → Đây mới là GenAI!
+
 ---
 
 ### 2. Bộ ba then chốt: Tokens, Embeddings và Không gian Vector
